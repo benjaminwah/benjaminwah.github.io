@@ -1,0 +1,113 @@
+<html>
+<body bgcolor="white"
+link=#0000ff
+alink=#150567
+vlink=#150567>
+
+<h3>&nbsp;</h3>
+
+<center><h2>
+<b>Distributed Processing and Networking</b></h2></center>
+
+<p>Our focus in this area is in the application of distributed search
+methods to resolve collisions and to identify bottlenecks in distributed
+systems and computer networks, and the design of efficient protocols for
+real-time transmissions.</p>
+
+<ul>
+<li><a HREF="paper.html#REALTIMENET">Real-Time Multimedia Loss Concealment</a>.
+	The research aims to design protocols and coding methods for the concealment of errors
+	that occur during real-time transmission of audio and video data over unreliable IP networks,
+	such as the Internet and wireless networks.  Since video and audio transmissions may tolerate
+	some degree of loss, it is necessary to study schemes that involve trade-offs in their
+	real-time requirements and tolerance to loss.  The schemes studied will involve proper
+	coding of transmitted data, protocols to schedule transmissions and feedbacks, and
+	reconstruction schemes to recover lost data.  Results of this research will lead to
+	more robust transmissions of real-time video and audio data over unreliable networks.</p>
+
+<li><a HREF="paper.html#WINDOW"> Multiaccess problem: the search for a single responding station</a>.
+	The multiaccess problem, or the identification of a single station
+	to use a shared channel, is an important problem in local-area
+	and mobile networks.  Although the number of contention slots
+	needed to resolve contention in the original binary backoff algorithm
+	grows linearly with respect to the number of contending stations,
+	the variance of inter-channel access delays grows very quickly
+	with increasing number of contending stations.  Consequently, the
+	number of contending stations in such networks must be kept
+	very small.</p>
+
+	<p>We have developed an efficient collision-resolution algorithm for
+	multiaccess networks with a geometrically distributed inter-channel
+	access delay and an average delay that is constant, independent of
+	the number of contending stations.
+	In this protocol, each station chooses a random number in a common
+	range, and stations inside a common window can contend for the
+	channel in the next contention slot.  By reducing the common window
+	successively using dynamic programming, a single station will eventually
+	be isolated.  The speed of the protocol can be improved by storing
+	the optimal window in each step ahead of time in lookup tables.
+	A U.S. patent on this invention was awarded in 1986.
+	The protocol has also been extended to use in mobile networks.</p>
+
+	<p>The window-based scheme for contention resolution was extended to
+	work in multiprocessor bus networks and networks with multiple
+	contention busses.  A variation of this algorithm was implemented
+	in the Sequent Balance 8000 multiprocessor.</p>
+
+<li><a HREF="paper.html#LOADPROT">
+Load balancing problem: the search for stations with the minimum and the maximum load</a>.
+	By implementing the window protocol in software, load balancing
+	can be carried out effectively in software in local-area networks.
+	The window protocol implemented in software can find stations
+	with the maximum and the minimum workload in constant time on the
+	average, independent of the number of contending stations.</p>
+
+<li><a HREF="paper.html#LOADNOW">
+Load balancing strategies: learning and generalization</a>.
+	Using evolutionary learning, new load balancing strategies
+	were created, verified on a real system, and generalized
+	to systems not tested in learning.  The key issue involves
+	the development of an
+	experimental system that allows load balancing strategies with
+	different parameters to be tested under identical workload
+	conditions.</p>
+
+<li><a HREF="paper.html#APPLLOAD">
+Load balancing: applications</a>.
+	The mapping of neural-network learning on distributed-memory
+	multiprocessors has been studied.</p>
+
+<li><a HREF="paper.html#REALTIMENET">
+Protocols for real time transmissions</a>.
+	In this area we study efficient protocols and related performance
+	issues to transmit real-time data over computer networks.  We study
+	related issues in quality of service, protocols for efficient
+	audio, image, and data coding and reconstruction, and the implementation
+	and testing of these protocols on prototypes.</p>
+
+<li><a HREF="paper.html#RESOURCE">
+Resource sharing interconnection networks: the distributed search
+for free resources of a specific type</a>.
+	The problem involves the design of architectural supports
+	in a multistage interconnection network to search for free
+	resources of a specific type to satisfy incoming requests.
+	The problem has been transformed into a maximum-flow problem
+	that can be solved in polynomial time.  Hardware implementations
+	of the distributed maximum-flow problem have also been studied.</p>
+
+<li><a HREF="paper.html#DDB">
+Distributed databases</a>.
+	The main applications studied are the file-placement
+	problem and the use of a broadcast bus to aid distributed
+	query processing and concurrency control in distributed
+	databases.</p>
+
+<li><a HREF="paper.html#OAPPL">
+Other protocols and applications</a>.
+	Miscellaneous and protocols and applications have been studied, specifically,
+	distributed search on the Internet.
+</ul><br>
+<h3>&nbsp;</h3>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<html>
+<body bgcolor="white"
+link=#0000ff
+alink=#150567
+vlink=#150567>
+
+<h3>&nbsp;</h3>
+
+<center> <h2>
+<b>The <i>Novel</i> Project on Nonlinear Optimization</b></h2></center>
+
+<p> Constrained nonlinear programming problems (NLPs) abound in varieties of engineering applications.
+Examples include the design of digital filter banks in communications, digital filters
+in audio-visual equipment, artificial neural networks for time-series forecasting,
+placement and routing of components in computer-aided design, power-plant operation
+in nuclear reactors, phase and chemical-reaction equilibrium in chemical engineering,
+structural optimization in civil engineering, and heat exchangers in mechanical engineering.
+Improved solutions to these problems can lead to significant savings that exist in two forms:
+better solutions at the same cost, or solutions of similar quality at less cost.</p>
+
+<p> In the simplest form, a problem can be formulated by an objective and one or more constraints.
+Such problems, under various assumptions, can be evaluated efficiently by many algorithms
+developed in the past.  For instance, when the objective and constraints are continuous and
+differentiable and all problem variables are continuous, sequential quadratic programming can
+be used to find high-quality local optima.  When functions have convex subspaces, then certain
+forms of mixed-integer constrained NLPs can be solved.  In general, these methods are restricted
+to finding local optima for problems that satisfy the underlying assumptions and can only be used
+for global optimization in special cases.</p>
+
+<p> In more general cases, the objective and constraints of an application may only be evaluated
+procedurally or through costly simulations.  Further, function surfaces in large-scale complex
+problems often have large number of dimensions and can be very rugged, trapping local-search methods
+in local optima and often requiring restarts to bring the search to a new region.  Problem variables may
+be continuous, discrete, or mixed-integer, involving objectives and constraints that may be highly
+nonlinear and non-differentiable.  As a result, gradient-based methods are not practical because each
+gradient calculation may involve extensive computations.  Existing stochastic methods, such as simulated
+annealing (SA) and genetic algorithms (GA), do not rely on gradients but are unable to handle nonlinear
+constraints well.  As a result, some applications that are inherently constrained were formulated as
+unconstrained problems, due to a lack of efficient methods to solve them directly.  The development of
+solution methods to general nonlinear constrained NLPs is, therefore, of significant importance.</p>
+
+<p>The <i>Novel</i> Project
+<!-- <a HREF="Images/novel.ps">
+(summary slide)</a> -->
+involves the study of the theory and efficient algorithms to solve general discrete, continuous,
+and mixed-integer NLPs.  Results in this project have been applied to solve large-scale problems
+in artificial intelligence, digital signal processing, neural-network learning, and operations research.</p>
+
+	<ul>
+	<li><a HREF="paper.html#NONLINEARDIS"> Theory and Applications of Discrete Lagrange Multipliers.</a>
+		A pioneering theory to solve discrete, continuous, and mixed-integer constrained
+		NLPs is summarized in the first-order necessary and sufficient condition that proves
+		the equivalence between discrete saddle points and discrete constrained local minima
+		(CLM), assuming minimization problems.  The theory provides the mathematical foundation
+		of global optimization and leads to a new algorithm, called constrained simulated annealing
+		(CSA), for finding constrained global minima (CGM) of these problems.
+		CSA has been proved to have asymptotic convergence to a CGM with probability
+		one.  Significant improvements have been found in solving satisfiability problems,
+		MAX-SAT problems, and mixed-integer NLPs, and in the design of multiplierless filter banks.
+		(The source code and results of <a HREF="../program.html#DLM"><i>DLM</i></a> for solving
+		satisfiability problems is available for distribution.)<p>
+
+	<li><a HREF="paper.html#NONLINEARCONTTRACE"> Trace-Based Continuous Optimization.</a>
+		Research is focused on developing global-search and dynamic weight-adaptation
+		algorithms to improve the convergence speed and solution quality of Lagrangian methods.
+		The proposed method relies on an external traveling trace to pull a search trajectory
+		out of a local optimum in a continuous fashion without having to restart it from a new
+		starting point.  The search trajectory is based on two counteracting forces:
+		local gradient information that drives the search to a local optimum, and a deterministic
+		trace that leads the search out of the local optimum once it gets there.  Good starting
+		points identified in the global-search phase are used in the local-search phase to identify
+		true local optima.  The proposed method avoids the problem in existing methods
+		based on random restarts, simulated annealing, and genetic algorithms, which
+		may miss good local optima in the vicinity of the local optima already found.
+		Improved solutions have been found for nonlinear benchmark problems and in the design
+		of digital filter banks and feedforward neural-network training.  (The object code and results
+		of <a HREF="../program.html#Novel"><i>neural-network training</i></a> is available for
+		distribution.)<p>
+		<!-- <p><IMG WIDTH=600 ALIGN=BOTTOM SRC="../Images/novel.gif"> <P><BR> -->
+
+	<li><a HREF="paper.html#NONLINEARCONTOTHER"> Other Techniques.</a> Miscellaneous techniques in
+		Bayesian analysis and Groebner Basis have been studied.<p>
+	</ul>
+<h3>&nbsp;</h3>
+</body>
+</html>

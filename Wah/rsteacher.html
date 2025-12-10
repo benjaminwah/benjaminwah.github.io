@@ -1,0 +1,91 @@
+<html>
+<body bgcolor="white"
+link=#0000ff
+alink=#150567
+vlink=#150567>
+
+<h3>&nbsp;</h3>
+
+<center>
+<h2><b>The <i>Teacher</i> Learning System Project</b></h2>
+</center>
+
+<p>The design of good heuristics is important in many engineering applications.
+Today, many application problems are too complex for users to find optimal
+algorithms analytically.  Rather, users rely on heuristics designed by experts
+to find high-quality solutions.  The effectiveness of these heuristics, however,
+depends on domain knowledge available to and past experience of these experts.
+When little domain knowledge is available, it is important to develop
+automated learning methods for generating improved heuristics systematically,
+evaluating their performance on realistic test cases, and generalizing their
+performance to test cases not seen in learning.  Such learning and generalization
+methods will carry significant impact in many engineering applications.
+
+<p>The objective of the <i>Teacher</i> (<b>TE</b>chniques for the <b>A</b>utomated <b>C</b>reation of <b>HE</b>u<b>R</b>istics)
+Project is to automate the learning and generalization of performance-related heuristics for
+knowledge-lean application problems.  To find robust and better heuristics
+that perform well under a wide variety of conditions, issues on performance
+evaluation, generalization, generalizability, and resource scheduling must be studied.</p>
+
+<p><IMG WIDTH=700 ALIGN=BOTTOM SRC="../Images/teach_summ.gif"> <P><BR>
+	<ul>
+	<li><a HREF="paper.html#OVERALL" target="resview">
+	Overall System</a>
+	<!-- (<a HREF="Images/teach_summ.ps">
+  	Summary Slide</a>)-->
+	<p>
+	<li><a HREF="paper.html#GENERALIZATION" target="resview">
+	Generalizability</a>:
+		This involves finding heuristics that perform better than
+		other competing heuristics across test cases of different
+		statistical behavior in an application.
+		Traditional statistical methods, which generally require performance
+		data to be independent and identically distributed, cannot be applied.
+		A new statistical measure called <i>probability of win</i> was
+		developed to assess the performance of heuristics in a
+		range-independent and distribution-independent manner.
+		This generalization method has led to many new and robust 
+		heuristics that perform better than existing heuristics.<p>
+
+	<li><a HREF="paper.html#GENETIC" target="resview">
+	Resource Scheduling</a>:
+		This involves scheduling (sequential and parallel) computing
+		resources in genetics-based learning so that high-quality
+		heuristics can be learned in a limited amount of time.
+		This problem was largely ignored in the literature in the past
+		but is extremely important in real applications in which tests
+		of heuristics are expensive.
+		A number of efficient resource scheduling algorithms have been
+		developed to trade between the number of new heuristic methods
+		considered and the amount of tests performed on each.<p>
+
+	<li>Applications:
+		<ul>
+		<li><a HREF="paper.html#PROCMAP" target="resview">
+			Process mapping</a> in <i>PostGame Analysis</i>
+		<li><a HREF="paper.html#LOADNOW" target="resview">
+			Load balancing on a network of workstations</a> in <i>Condor</i>
+		<li><a HREF="paper.html#PLACEMENT" target="resview">
+			Circuit placement, routing, and testing</a> in <i>TimberWolf</i>,
+			<i>Cris</i> and <i>GA Test</i>
+		<li><a HREF="paper.html#ANNDESIGN" target="resview">
+			Automated design of feedforward neural networks</a>
+		<li><a HREF="paper.html#BBLEARN" target="resview">
+			Branch-and-bound search</a>
+		<li><a HREF="paper.html#STEREO" target="resview">
+			Range estimation in stereo vision</a>
+		<li><a HREF="papers/TP8/TP8.ps.gz">
+			Channel equalization in signal processing</a>
+		</ul>
+
+	<p>Improvements in these problem solvers are very hard because they have been
+	tuned extensively by their designers.  In each application, <i>Teacher</i>
+	was able to find improvements ranging from 5% to
+	several orders of magnitude.<p>
+
+	<li><a HREF="paper.html#RELATED" target="resview">
+	Related research in learning</a></p>
+	</ul>
+<h3>&nbsp;</h3>
+</body>
+</html>

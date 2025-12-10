@@ -1,0 +1,86 @@
+<html>
+<body bgcolor="white"
+link=#0000ff
+alink=#150567
+vlink=#150567>
+
+<h3>&nbsp;</h3>
+
+
+<center><h2><b>
+Coprocessors and Processor Arrays</b></h2></center>
+
+<p>With the continuous growth of VLSI technology, it becomes feasible
+to build large arrays of simple processing elements and functional units
+in a single chip (e.g. FPGA) to process recurrent algorithms.  The
+approach, however, may be restricted by the limited number of
+input/output pins that interface the chip and the external memory
+and peripherals.</p>
+
+<p>Our focus in this area is on the automated synthesis of VLSI arrays
+of processing elements and functional units, and the automated mapping
+of recurrent algorithms (e.g. loops) on these VLSI arrays.
+To cope with the problem of limited I/O, we have studied the use of
+on-chip memory and mapping algorithms to maximize the reuse of on-chip
+data.  The relevant issues studied include
+the amount of chip area allocated to on-chip memory, the interconnection
+topology of processing elements and functional units, their
+reconfigurability to adapt to applications of different behavior,
+and the design of compilers to map recurrent algorithms on the system.</p>
+
+<ul>
+<li><a HREF="paper.html#COPROCESSOR">
+Coprocessor system.</a>
+
+	We have studied the design of a super vector coprocessor
+	for executing nested DO loops.  The coprocessor consists of
+	a collection of processing elements or functional units, whose
+	topology can be reconfigured dynamically before a recurrent
+	algorithm is evaluated.  Research issues studied include the
+	allocation of chip area for on-chip memory, architectural
+	support for dynamic reconfiguration, and the design of a
+	compiler to generate code that minimizes completion time and
+	the access of off-chip data.  The idea has been applied to
+	design next-generation signal processors.<p>
+
+<li><a HREF="paper.html#OPTSYNTH">
+Processor arrays: optimal synthesis.</a>
+
+	This early work is on the synthesis of application-specific affine
+	(uniform) recurrences on regular fine-grain processor arrays.
+	An affine dependence algorithm consists of a set of indexed
+	computations and a set of uniform dependence vectors that are
+	independent of the indices of computations.
+	We have developed a <i>polynomial-time search algorithm</i>
+	for mapping high-dimensional recurrences on lower-dimensional
+	processor arrays.  Originally, the problem was formulated by
+	others as nonlinear integer programming problems with
+	exponential complexity.  The new approach allows optimal
+	trade-offs between completion time and hardware complexity.<p>
+
+<li><a HREF="paper.html#APPLARRAY">
+Processor arrays: applications.</a>
+
+	The polynomial-time method for optimal synthesis of processor
+	arrays has been applied in designing VLSI array processors
+	for solving dynamic programming problems, image processing,
+	signal processing, and matrix operations.<p>
+
+<li><a HREF="paper.html#INTERFACE">
+Processor arrays: interfacing.</a>
+
+	This addresses related issues in interfacing VLSI array
+	processors to host computers.<p>
+
+<li><A HREF="paper.html#ARCHITECTURE">
+Other work in architecture.</a>
+
+	This addresses the design of associative memory and
+	interleaved memories.
+
+</ul><br>
+
+<h3>&nbsp;</h3>
+
+</body>
+</html>

@@ -1,0 +1,2234 @@
+.so /users/wah/Bin/lib/vita.ms.ref
+.lf 1 /home/manip2/wah/Pers/Vita/master_vita
+.lf 1 /users/wah/Pers/Vita/Vita/.macros.reg
+.de hs					\" half vertical space
+.sp 0.5v
+..
+.de FQ
+\\*([L
+..
+.de a1					\" print argument and break
+\\$1
+.br
+..
+.de a2					\" print argument
+\\$1
+..
+.de p1					\" professional society activities, nat. comm. and act.
+.ne 4
+.IP "Organization:" 14
+\\$1
+.IP "\ \ \ \ Activity:"
+..
+.de c1					\" conference title in conference activities
+.ne 4
+.IP "Conference:" 14
+\\$1
+.IP "\ \ Activity:" 14
+..
+.de e1					\" journal editorship, temporary indent
+.sp 0.3v
+.ti -0.2i
+\\$1
+..
+.de m1					\" school committee with individual activities
+.ne 4
+.IP "Committee:" 13
+\\$1
+.IP "\ Activity:" 13
+..
+.de s1					\" positions held
+.IP "\\$1" 26
+..
+.lf 9 /home/manip2/wah/Pers/Vita/master_vita
+.nr HM 1.6i
+.ND
+.ds CH - % -
+.ds LH "(B. W-S. Wah)
+.nr PL 11.5i
+.pl 11.5i
+.EQ
+delim $$
+gfont R
+gsize 10
+.EN
+.de hs
+.sp 0.5v
+..
+.nr VS 12
+.vs 12
+.nr PS 12
+.ps 12
+.ce
+\fBVITA\fR
+.br
+.nr PS 10
+.ps 10
+.ds RH "(\*(tm)
+.sp
+.tl '\fBName\fR:'Benjamin Wan-Sang Wah''
+.sp
+.nf
+.TS
+l l l l.
+\fBPersonal\fR	Citizenship:	United States (naturalized)
+	Marital status:	Married
+	Wife's Name:	Christine Hai-Ling
+	Children's Name:	Catherine Lih-Lian and Elaine Ying-Lian
+	Address:	Coordinated Science Laboratory (office)	1217 Dorchester Drive (home)
+		University of Illinois, Urbana-Champaign	Champaign, IL 61821
+		1308 West Main Street	(217) 398-1701
+		Urbana, IL 61801
+		(217) 333-3516 (office)
+		(217) 244-7175 (secretary/fax)
+		E-mail: wah@uiuc.edu
+		URL: http://manip.crhc.uiuc.edu
+.TE
+.sp
+.in +0.5i
+.ti 0
+\fBEducation
+.I
+.TS
+center;
+lw(1.5i) lw(1.2i) lw(2i).
+Degree	Date	School\fR
+.sp
+Ph.D. Engineering	Dec. 1979	University of Calif., Berkeley
+M.S. Comp. Sci.	Dec. 1976	University of Calif., Berkeley
+M.S. EECS	June 1975	Columbia University
+B.S. EECS	June 1974	Columbia University
+.TE
+.sp
+.fi
+\fIPh.D. Thesis\fR: ``A Systematic Approach to the Management of Data on Distributed Data Bases''
+.sp 2
+.ne 8
+.ti 0
+\fBHonors and Awards\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/award.research
+.e1 "IEEE Computer Society Outstanding Paper Award,"
+.a2 "for his COMPSAC'80 paper ``An Efficient Heuristic for File Placement on
+.a2 "Distributed Databases,'' 1981."
+.br
+.e1 "IEEE Fellow,"
+.a2 "``for contributions to the field of parallel processing,'' 1991."
+.br
+.e1 "University of Illinois, University Scholar,"
+.a2 "Faculty Excellence Award, 1989-1992."
+.br
+.e1 "Fujitsu Endowed Visiting Chair Professorship of Intelligence Engineering,"
+.a2 "University of Tokyo, Japan, 1992."
+.br
+.e1 "McKay Visiting Professorship,"
+.a2 "University of California, Berkeley, 1994."
+.br
+.e1 "IEEE Int'l Conf. on Tools with Artificial Intelligence Technical Achievement Award,"
+.a2 "``for his outstanding research contributions to IEEE ICTAI (1988-1997).''"
+.br
+.e1 "Fellow, Society for Design and Process Science, 1997."
+.br
+.e1 "IEEE Computer Society Technical Achievement Award,"
+.a2 "``for outstanding pioneering contributions to search optimization with parallel and neural network approaches'', 1998."
+.br
+.e1 "Robert T. Chien Professor of Electrical and Computer Engineering,"
+.a2 "University of Illinois, Urbana-Champaign, 1998-2003."
+.br
+.e1 "IEEE Int'l Conf. on Tools with Artificial Intelligence,"
+.a2 "Best Paper Award for his paper with T. Wang entitled ``Constrained Simulated Annealing with Applications in Nonlinear Constrained Global Optimization,'' 1999."
+.br
+.e1 "Journal of Global Optimization,"
+.a2 "Best Paper Award on papers published in 1999 for his paper with T. Wang entitled ``Efficient and Adaptive Lagrange-Multiplier Methods for Nonlinear Continuous Global Optimization,'' 2001."
+.br
+.e1 "IEEE Third Millennium Medal,"
+.a2 "``for outstanding contributions in the computer area,'' 2000."
+.br
+.e1 "National Tsinghua University, Taiwan,"
+.a2 "Sun Yun-suan Honorary Chair Professor, 2001-2005."
+.br
+.e1 "Taichung Healthcare and Management University, Taiwan,"
+.a2 "Honorary Professor, 2002."
+.br
+.e1 "Raymond T. Yeh Life Time Achievement Award,"
+.a2 "``in recognition of long-term preeminent achievement in research, innovation, or education,'' Society for Design and Process Science, 2003."
+.br
+.e1 "1st Prize, Suboptimal Temporal Metric Track (with Y. X. Chen and C. W. Hsu),"
+.a2 "4th International Planning Competition, June 6, 2004."
+.br
+.e1 "2nd Prize, Suboptimal Propositional Track (with Y. X. Chen and C. W. Hsu),"
+.a2 "4th International Planning Competition, June 6, 2004."
+.br
+.e1 "Franklin W. Woeltge Endowed Professor of Electrical and Computer Engineering,"
+.a2 "University of Illinois, Urbana-Champaign, 2004-present."
+.br
+.e1 "Fellow, American Association for the Advancement of Science,"
+.a2 "``for outstanding and innovative contributions to the theory and applications of nonlinear optimization,'' 2005."
+.br
+.e1 "Fellow, Association for Computing Machinery,"
+.a2 "``for leadership in the computer science community and contributions to system optimization,'' 2005."
+.br
+.e1 "W. Wallace-McDowell Award, IEEE Computer Society,"
+.a2 "``for fundamental contributions to the theory and applications of nonlinear and resource-constrained optimization,'' 2006."
+.br
+.e1 "IEEE Int'l Conf. on Tools with Artificial Intelligence,"
+.a2 "Best Paper Award for his paper with C. W. Hsu and Y. X. Chen entitled ``Subgoal Ordering and Granularity Control for Incremental Planning,'' 2005."
+.br
+.e1 "Outstanding Research Award, Pan Wen Yuan Foundation,"
+.a2 "``for significant theoretical innovations in nonlinear optimization,'' 2006"
+.br
+.e1 "1st Prize, Satisficing Planning (with C. W. Hsu, Y. X. Chen, and R. Huang),"
+.a2 "5th International Planning Competition, 16th International Conference on Automated Planning and Scheduling, June 6-10, 2006."
+.br
+.e1 "WIC Outstanding Contribution Award, Web Intelligence Consortium,"
+.a2 "``for landmark contributions to Web intelligence and nonlinear optimization,'' 2006"
+.lf 76 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 8
+.ti 0
+\fBService Awards\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/award.service
+.e1 "IEEE Computer Society Richard E. Merwin Distinguished Service Award"
+.br
+.a1 "$delim off$``For outstanding achievements, sustained leadership, and dedicated service to the IEEE Computer Society,'' 2006. (This is the highest service award in the IEEE-CS and carries an honorarium of $5,000.)"
+.br
+.e1 "IEEE Computer Society Certificate of Appreciation"
+.br
+.a1 "3rd International Conference on Distributed Computing Systems, 1982;"
+.a1 "3rd International Conference on Data Engineering, 1987;"
+.a1 "11th Int'l Conf. on Distributed Computing Systems, 1991;"
+.a1 "``For thoughtful and conscientious evaluation of Fellows candidates during service on the 1993 Fellows"
+.a2 "\ \ \ \ \ \ \ \ Committee;''"
+.br
+.a1 "``For expert professional service with the highest standard while serving on the Computer Society's 1994"
+.a2 "\ \ \ \ \ \ \ \ IEEE Fellows Evaluation Committee;''"
+.br
+.a1 "``For thoughtful and conscientious evaluation of Fellows candidates during service on the 1995 Fellows"
+.a2 "\ \ \ \ \ \ \ \ Committee;''"
+.br
+.a1 "``For outstanding leadership as a cochair and member of the IEEE Computer Society Executive Director"
+.a2 "\ \ \ \ \ \ \ \ Search Committee, 2001;''"
+.br
+.a1 "``For exemplary and dedicated service as a member of the IEEE Computer Society Finance Committee"
+.a2 "\ \ \ \ \ \ \ \ during 2001;''"
+.br
+.a1 "``For service on the IEEE Computer Society Constitution and Bylaws Committee during 2002;''"
+.br
+.a1 "``For service on the IEEE Computer Society Planning Committee during 2002;''"
+.br
+.a1 "``For dedicated service as a member of the 2004 IEEE Computer Society Nominations Committee.''"
+.br
+.e1 "International Conference on Parallel Processing Outstanding Service Award,"
+.a2 "``in appreciation of his distinguished service as technical Program"
+.a2 "Co-Chairman of the 1990 International Conference on Parallel Processing,''
+.a2 "1990."
+.br
+.e1 "IEEE Region 10 Conference on Computers and Communications, Plaque of Appreciation"
+.a2 "for contributions to IEEE TENCON'90, 1990."
+.br
+.e1 "IEEE Computer Society Meritorious Service Award,"
+.a2 "for ``dedicated and significant services to the TAI conferences"
+.a2 "steering committee and as Program Chair of TAI'91,'' 1991."
+.br
+.e1 "IEEE Computer Society Distinguished Visitor,"
+.a2 "1983-1986, 1989-1992."
+.br
+.e1 "IEEE Outstanding Contribution Certificate,"
+.a2 "for ``initiating and nurturing the"
+.a2 "\fIIEEE Transactions on Knowledge and Data Engineering\fR into a"
+.a2 "highly respected source of technical information'', 1992."
+.br
+.e1 "IEEE International Conference on Neural Networks,"
+.a2 "for ``distinguished service as Conference Chair of ICNN'96.''"
+.br
+.e1 "IEEE Computer Society Golden Core Member, 1996"
+.a2 "as ``one of the distinguished core of dedicated volunteers and staff"
+.a2 "whose leadership and service have made the IEEE Computer Society"
+.a2 "the world's preeminent association of computing professionals.''"
+.br
+.e1 "IEEE Circuits and Systems Society Certificate of Appreciation,"
+.a2 "for ``services rendered as chairman, International Conference on Neural Networks 1996.''"
+.br
+.e1 "IEEE International Conference on Tools with Artificial Intelligence Outstanding Service Award,"
+.a2 "for ``outstanding service as General Co-Chair of the IEEE-CS 10th ICTAI,'' 1998."
+.br
+.e1 "International Federation for Information Processing Silver Core Award,"
+.a2 "in ``appreciation of services rendered to IFIP,'' 2001."
+.br
+.e1 "IEEE Computer Society Meritorious Service Award,"
+.a2 "for ``strong leadership and unswerving dedication to the Society"
+.a2 "above and beyond the normal call of duty in the year 2000,'' 2001."
+.br
+.e1 "IEEE"
+.br
+.a1 "``In recognition and appreciation of valued services and contributions as member, 2002, of Affiliate"
+.a2 "\ \ \ \ \ \ \ \ Status Review Ad Hoc Committee;''"
+.br
+.a1 "``In recognition and appreciation of valued services and contributions as member, 2002, of Operational"
+.a2 "\ \ \ \ \ \ \ \ Review Ad Hoc Committee.''"
+.lf 83 /home/manip2/wah/Pers/Vita/master_vita
+.sp
+.ne 8
+.ti 0
+\fBTeaching Awards\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/award.teaching
+.e1 "Chinese University of Hong Kong,"
+.a2 "Exemplary Teaching Award, 1998-99."
+.lf 89 /home/manip2/wah/Pers/Vita/master_vita
+.sp
+.ne 8
+.ti 0
+\fBBiography Listings\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/award.biography
+.e1 "Who's Who in Frontier Science and Technology"
+.br
+.e1 "Personalities of America"
+.br
+.e1 "Who's Who in Technology Today"
+.br
+.e1 "The International Who's Who of Contemporary Achievement"
+.br
+.e1 "Who's Who in Society"
+.br
+.e1 "Men of Achievement, 1989, 1994"
+.br
+.e1 "Who's Who in Overseas Chinese of High Intelligence"
+.br
+.e1 "Outstanding Young Men of America"
+.br
+.e1 "Who's Who Among Rising Young Americans"
+.br
+.e1 "Man of the Year - 1993, 1996, 2000"
+.br
+.e1 "5000 Personalities of the World - 1995"
+.br
+.e1 "American Men & Women of Science - 1997, 2006"
+.br
+.e1 "International Who's Who of Information Technology - 1997"
+.br
+.e1 "Marquis Who's Who in Science and Engineering - 2000-2001"
+.br
+.e1 "American Biographical Institute International Directory of Distinguished Leadership - 2000"
+.br
+.e1 "Who's Who in Engineering Education - 2002"
+.br
+.e1 "International Scientist of the Year - 2002"
+.br
+.e1 "Honored Member of Strathmore's Who's Who, 2003-2004"
+.br
+.e1 "Who's Who Among America's Teachers, 2005-2006"
+.br
+.e1 "Who's Who in America, 2007"
+.lf 95 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 8
+.ti 0
+\fBAcademic Positions Held\fR
+.sp 0.5v
+.fi
+.in -.5i
+.in +.25i
+.lf 1 /users/wah/Pers/Vita/Vita/position.academic
+.s1 "January\ 1,\ 2004-present"
+.a2 "Franklin W. Woeltge Endowed Professor of Electrical and Computer Engineering, University of Illinois, Urbana-Champaign, IL."
+.br
+.s1 "Jan.\ 2002-Dec.\ 2004"
+.a2 "Sun Yun-suan Honorary Chair Professor, National Tsinghua University, Taiwan."
+.br
+.s1 "Aug.\ 21,\ 1998-Dec.\ 31,\ 2003"
+.a2 "Robert T. Chien Professor of Electrical and Computer Engineering, University of Illinois, Urbana-Champaign, IL."
+.br
+.s1 "July\ 1,\ 1998-June\ 30,\ 1999"
+.a2 "Professor of Computer Science and Engineering (equivalent to Chair Professor),"
+.a2 "Chinese University of Hong Kong, Hong Kong."
+.br
+.s1 "July\ 1,\ 1999-June\ 30,\ 2003"
+.a2 "Adjunct Professor of Computer Science and Engineering,"
+.a2 "Chinese University of Hong Kong, Hong Kong."
+.br
+.s1 "Fall\ 1994"
+.a2 "McKay Visiting Professor, University of California, Berkeley."
+.br
+.s1 "July\ 20,\ 1992-July\ 31,\ 1992"
+.a2 "Distinguished Vistor, University of Science and Technology, Hong Kong."
+.br
+.s1 "April\ 1,\ 1992-June\ 30,\ 1992"
+.a2 "Fujitsu Endowed Visiting Chair Professor of Intelligence Engineering,"
+.a2 "University of Tokyo, Tokyo, Japan."
+.br
+.s1 "Aug.\ 1989-present"
+.a2 "Professor, Department of Electrical and Computer Engineering (100\%);"
+.a2 "Research Professor, Coordinated Science Laboratory (0 \%);"
+.a2 "Department Affiliate, Computer Science Department (0 \%);"
+.a2 "University of Illinois, Urbana-Champaign, IL."
+.br
+.s1 "Aug.\ 1985-July\ 1989"
+.a2 "Associate Professor, Department of Electrical and Computer Engineering;"
+.a2 "Research Associate Professor, Coordinated Science Laboratory;"
+.a2 "University of Illinois, Urbana-Champaign, IL."
+.br
+.s1 "Aug.\ 1984-July\ 1985"
+.a2 "Associate Professor, School of Electrical Engineering,"
+.a2 "Purdue University, West Lafayette, IN."
+.br
+.s1 "Aug.\ 1979-July\ 1984"
+.a2 "Assistant Professor, School of Electrical Engineering, Purdue University,"
+.a2 "West Lafayette, IN."
+.lf 104 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 3
+.ti 0
+\fBOther Positions Held\fR
+.sp 0.5v
+.fi
+.in -0.5i
+.in +0.25i
+.lf 1 /users/wah/Pers/Vita/Vita/position.other
+.s1 "Jan.\ 1988-June\ 1989"
+.a2 "Program Director, Microelectronics System Architecture Program,"
+.a2 "Microelectronics Information Processing Systems Division,"
+.a2 "National Science Foundation, Washington, DC."
+.br
+.s1 "June\ 1976-Aug.\ 1979"
+.a2 "Research Assistant, University of California Berkeley, Berkeley, CA."
+.br
+.s1 "May\ 1974-June\ 1975"
+.a2 "Technical Staff, Center of Computing Activities,"
+.a2 "Columbia University, New York, NY."
+.br
+.s1 "May\ 1973-Aug.\ 1974"
+.a2 "Research Assistant, Program in Engineering Education for Public Service,"
+.a2 "Columbia University, New York, NY."
+.lf 114 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 8
+.ti 0
+\fBResearch Grants and Contracts Received\fR
+.sp 0.5v
+.nr PS 10
+.ps 10
+.EQ
+delim off
+.EN
+.lf 1 /users/wah/Pers/Vita/Vita/grants
+.IP [1] 5
+Purdue Research Foundation Summer Faculty XL-Grant,
+``A Study on the Logical Design of Distributed
+Databases and Its Impact on Query Processing and
+File Migration,''
+5-15-80 to 8-15-80,
+$3,000,
+Principal Investigator.
+.IP [2]
+Purdue Research Foundation David Ross Grant,
+``A Study on the Logical Design of Distributed
+Databases and Its Impact on Query Processing and File
+Migration,''
+9-1-81 to 8-31-83,
+$11,100,
+Principal Investigator.
+.IP [3]
+Purdue Research Foundation Summer Faculty XL-Grant,
+``The Design of a Parallel Processing System for Solving
+Approximate NP-complete Problems,''
+5-15-83 to 8-15-83,
+$3,500,
+Principal Investigator.
+.IP [4]
+National Science Foundation Research Initiation,
+``The Logical Design of Distributed Databases and Its Impact
+to Query Processing and File Migration,''
+Grant Number ECS-81-05968,
+9-1-81 to 2-28-84,
+$48,000, Principal Investigator.
+.IP [5]
+Purdue University Computer Integrated Design,
+Manufacturing and Automation Center (CIDMAC) Contract,
+``Study of Distributed Databases in a Production Environment,''
+6-1-82 to 5-31-83,
+$39,990, Principal Investigator,
+6-1-83 to 5-31-84,
+$47,243, Principal Investigator.
+.IP [6]
+National Science Foundation,
+``VLSI Multiprocessor Architecture and Relational Database
+for Analysis and Management of Imagery Data,''
+5-1-82 to 4-30-85,
+Grant Number ECS-80-16580, $438,140
+($74,239 for research directed by B. Wah), Faculty Associate.
+.IP [7]
+Purdue University Computer Integrated Design,
+Manufacturing and Automation Center (CIDMAC) Contract,
+``Local Networking and Distributed-Database
+Design in Computer-Aided Manufacturing,''
+6-1-84 to 5-31-85,
+$52,967, Principal Investigator.
+.IP [8]
+University of Illinois, Research Board,
+``Design of a Fast Parallel Computer System
+for Evaluating Branch-and-Bound Algorithms,''
+10-3-85 to 5-31-86,
+$9,205, Principal Investigator.
+.IP [9]
+National Science Foundation,
+``Research Equipment Grant: Investigation of LISP Machine
+Architecture: Reliability and Performance,''
+6/15/86-11/30/87, Grant Number: 86-04893,
+$129,000, Co-Principal Investigator.
+.IP [10]
+National Science Foundation,
+``A Systematic Methodology for Designing VLSI Systolic Arrays
+with Applications in Pattern Recognition and Image Processing,''
+10-1-85 to 9-30-88, Grant Number: MIP 85-19649,
+$165,266, Principal Investigator.
+.IP [11]
+University of Illinois, Research Board,
+Engineering Research Equipment Grant: Algorithm Development and
+Performance Evaluation of Hypercube Multiprocessors,''
+9/4/1987-5/31/1988, $15,000
+Co-Principal Investigator.
+.IP [12]
+Joint Services Electronics Program, ``Parallel VLSI Structures
+for Sensor Array Processing,'' 9/1/86-8/31/89, Grant Number:
+N00014-84-C-0149, $60,000 for research directed by B. Wah,
+Faculty Investigator.
+.IP [13]
+National Aeronautics and Space Administration, Laboratory for
+Aerospace Systems and Software, ``Parallel AI Algorithms and
+Software,'' Grant Number: NAG 1-613, 1/1/87-12/31/89,
+$1,200,000 ($60,000 for research directed by B. Wah), Faculty Investigator.
+.IP [14]
+National Science Foundation, ``Engineering Research Equipment
+Grant: Algorithm Development and Performance Evaluation of
+Hypercube Multiprocessors,'' 8/1/1987-1/31/1989, Grant Number:
+87-05240, $130,000, Co-Principal Investigator.
+.IP [15]
+National Science Foundation, Inter-Governmental Personnel Act
+Agreement, 1/15/1988-6/20/1989, Grant Number: MIP 88-05206,
+$101,694, Principal Investigator.
+.IP [16]
+National Aeronautics and Space Administration,
+``Efficient Evaluation of AI Programs,'' 1/1/1988-12/31/1990;
+Contract Number: NCC 2-481, $327,559; Principal Investigator.
+.IP [17]
+National Aeronautics and Space Administration, ``Multiprocessing
+of Lisp Programs,'' 8/1/88-7/31/90, NASA Training Grant Number: NGT 50349,
+$36,000, Principal Investigator for NASA Graduate Student Fellowship.
+.IP [18]
+National Science Foundation, ``Design of Multiprocessing Systems
+for Learning Strategies,'' 12/1/88-11/30/91, Grant Number:
+MIP 88-10584, $303,515, Principal Investigator.
+.IP [19]
+Sumitomo Electric Industries, Yokohama, Japan,
+``Automated Learning of Load Balancing Strategies,''
+11/1/90-10/31/91, Unrestricted Grant,
+$61,275, Principal Investigator.
+.IP [20]
+Joint Services Electronics Program, ``Efficient Computation
+Techniques,'' 9/1/89-8/31/92, Grant Number:
+N00014-90-J-1270, $81,000 for research directed by B. Wah,
+Faculty Investigator.
+.IP [21]
+National Aeronautics and Space Administration, Laboratory for
+Aerospace Systems and Software, ``Efficient Evaluation of Combinatorial
+Searches,'' Grant Number: NAG 1-613, 1/1/90-12/31/92,
+$1,200,000 ($60,000 for research directed by B. Wah), Faculty Investigator.
+.IP [22]
+Sumitomo Electric Industries, Yokohama, Japan,
+``Load Balancing of C++ Programs on a Distributed Network
+of Workstations,'' 11/1/91-10/31/92, Unrestricted Grant,
+$77,460, Principal Investigator.
+.IP [23]
+National Science Foundation, ``Workshop on High Performance Computing
+and Communications for Grand Challenge Applications: Computer Vision,
+Natural Language and Speech Processing, and Artificial Intelligence,''
+2/15/92-11/15/92, Grant Number: IRI 92-12592, $35,395, Principal Investigator.
+.IP [24]
+National Aeronautics and Space Administration,
+``Automated Learning of Heuristics,'' 1/1/1990-6/30/1993;
+Contract Number: NCC 2-481, $355,000; Principal Investigator.
+.IP [25]
+National Aeronautics and Space Administration,
+``Automated Learning of Resource Sharing Algorithms for Distributed
+Computer Systems,'' 8/1/91-7/31/94, NASA Training Grant Number: NGT 50743,
+$66,000, Principal Investigator for NASA Graduate Student Fellowship.
+.IP [26]
+National Science Foundation, ``Architecture-Specific Resource Management via
+Intelligent Compilation and Strategy Learning,''
+4/1/93-9/30/96, Grant Number: MIP 92-18715, $308,277, REU Supplement:
+$2,500 (5/1/93-8/31/93), Equipment Supplement: $7,470 (8/1/94),
+Principal Investigator.
+.IP [27]
+National Science Foundation, ``International Conference on Application-Specific
+Array Processors,''
+10/1/93-12/31/94, Grant Number: MIP 93-11908, $11,600, Principal Investigator.
+.IP [28]
+Joint Services Electronics Program, ``High Performance VLSI Architectures,''
+9/1/92-8/31/95, Grant Number: N00014-90-J-1270, $97,500 for research directed
+by B. Wah, Faculty Investigator.
+.IP [29]
+National Science Foundation, ``Laboratory for High-Resolution
+Dynamic Image Processing and Visualization,''
+1/1/92-12/31/96, Grant Number: CDA 91-15434, $1,108,058, Faculty Investigator.
+.IP [30]
+National Aeronautics and Space Administration,
+``Compiler-directed Dat Migration in Massively Parallel Processing Systems,''
+8/1/94-7/31/96, NASA Training Grant Number: NGT 51339, $66,000,
+Principal Investigator for NASA Graduate Student Fellowship.
+.IP [31]
+National Aeronautics and Space Administration, Laboratory for
+Aerospace Systems and Software, ``Resource Management for Parallel and
+Distributed Systems,'' Grant Number: NAG 1-613, 1/1/93-12/31/97,
+$1,200,000 ($60,000 per year for research directed by B. Wah), Faculty Investigator.
+.IP [32]
+Intel Corporation,
+``Laboratory for Communication Network Design and Evaluation,''
+2/1/96-1/31/97, Equipment Donation, $13,850; 2/1/97-1/31/98, 
+Equipment Donation, $47,040; 8/1/98-7/31/99, Equipment donation,
+$25,884; 6/1/00-5/31/01, Equipment donation, $26,645; 8/1/01-7/31/02, Equipment donation, $38,638;
+Principal Investigator.
+.IP [33]
+Rockwell Semiconductor systems, ``Coprocessor for Digital Signal Processing,''
+10/1/96-9/30/99, Unrestricted Grant, $90,000, Principal Investigator.
+.IP [34]
+National Science Foundation, ``Global Optimization and Parallel Processing
+of Nonlinear Problems in Engineering Applications,''
+7/15/96-6/30/99, Grant Number: MIP 96-32316, $318,229, Principal Investigator.
+.IP [35]
+University of Illinois, Computational and Science Engineering Program,
+``Constrained Global Optimization of Filter Banks in Digital Signal Processing,''
+8/21/97-8/20/98, $14,300, Principal Investigator for Graduate Research Assistantship.
+.IP [35]
+DSP Development Corporation, Academic Grant on DADiSP/SE Software,
+6/1/98, $5,980, Principal Investigator.
+.IP [36]
+Chinese University of Hong Kong, Direct Grant for Research,
+``Constrained Global Search and its Applications to Subband Image Coding,''
+10/1/98-9/30/99, $9,690, Principal Investigator.
+.IP [37]
+Chinese University of Hong Kong, Faculty of Engineering,
+``A Multi-lingual Information and Application System,''
+11/1/98-9/30/99, $387,096, Principal Investigator.
+.IP [38]
+Conexant Systems, Inc., ``Designing a Supervector Processor for DSP Applications,''
+9/30/99-10/1/01, Unrestricted Grant, $45,000, Principal Investigator.
+.IP [39]
+National Aeronautics and Space Administration, ``Stochastic Anytime Search with Applications
+in Autonomous Planning and Scheduling,'' 4/1/01-11/30/03, $275,000, Grant Number: NCC 2-1230, Principal Investigator.
+.IP [40]
+Mindspeed, Inc., ``Loss Concealment Using DSP Techniques for Packet Voice,''
+4/1/01-3/31/02, Unrestricted Grant, $15,000, Principal Investigator.
+.IP [41]
+Cisco Systems, ``Four Cisco 4000 Routers to support the ECE Computer Networking Laboratory,''
+3/1/02-2/28/03, Unrestricted Grant, $65,960, Principal Investigator.
+.IP [42]
+Motorola, ``Loss Concealments for Real-Time Low Bit-Rate Voice Transmissions Over Wireless Networks,''
+8/21/02-8/20/05, Motorola Center Grant, $180,000, Project Leader.
+.IP [43]
+National Science Foundation, ``Efficient Algorithms for Temporal Planning under Nonlinear Constraints,''
+7/1/03-6/30/06, $375,000, Grant Number: ITR 03-12084, Principal Investigator.
+.IP [44]
+Motorola, ``Loss Concealments for Real-Time Speech Over IP Networks,''
+8/21/05-9/20/06, Motorola Center Grant, $60,000, Project Leader.
+.lf 125 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.EQ
+delim $$
+.EN
+.sp 2
+.ne 6
+.ti 0
+\fBProfessional Society Activities\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/activity.prof.soc
+.p1 "IEEE Computer Society"
+.a1 "Student Member, 1973-1979;"
+.a1 "Member, 1979-1985;"
+.a1 "Senior Member, 1985-1991;"
+.a1 "Fellow, 1991-present;"
+.a1 "Elected 1st Vice President, 1999;"
+.a1 "Elected 2nd Vice President, 1998;"
+.a1 "Elected President, 2001;"
+.a1 "Past President, 2002."
+.hs
+.p1 "IEEE Computer Society Governing Board"
+.a1 "Elected Member: 1989-1993, 1996-1997;"
+.a1 "Nominations Committee: Member, 1991, 1992, 2000, 2004; Chair, 2002;"
+.a1 "Membership Committee: Chair, 2002;"
+.a1 "Inter-Society Cooperations Committee: Chair, 2002;"
+.a1 "Fellows Committee: Member, 1993, 1994, 1995; Vice Chair, 1996; Chair, 1997;"
+.a1 "Society Travel Policy Committee: Member, 1997;"
+.a1 "Strategic Planning Committee: Member, 1997; Chair, 2000;"
+.a1 "Finance Committee: Chair, 1997; Member, 2000-2002;"
+.a1 "Committee on Computer Society Int'l Design Competition: Member, 1998-99;"
+.a1 "Committee on Computer Society Flagship Conference: Member, 1998-99;"
+.a1 "China Operations Committee: Member, 1999;"
+.a1 "Constitutions and Bylaws Committee: Chair, 2000;"
+.a1 "Ad Hoc Committee on Feasibility of CS Office in Europe: Member, 2003;"
+.a1 "Task Force on Transformation: Chair, 2006;"
+.a1 "Transformation Planning Committee: Member, 2006;"
+.a1 "Goverance Structure Committee: Chair, 2006;"
+.a1 "Executive Director Search Committee: Member, 2006."
+.hs
+.p1 "IEEE Computer Society Technical Activities Board"
+.a1 "Task Force on Virtual Intelligence: Chair, 1999-2002;"
+.a1 "Technical Committee on Intelligent Informatics: Member of Executive Committee, 2002-present;"
+.a1 "Technical Committee on Distributed Processing: Vice Chairman on Distributed Databases, 1980-1982, 1986-1988; Member, Advisory Committee, 1999-present;"
+.a1 "Technical Committee on Parallel Processing: Member, Advisory Board, 1992-present;"
+.a1 "Technical Committee on VLSI: Member, Executive Committee, 1986-2000;"
+.a1 "Technical Committee on Data Engineering: Vice Chair and Conference Liaison, 1992-1995;"
+.a1 "Technical Committee on Computational Intelligence: Past Chair, Executive Committee, 2002-2004."
+.hs
+.p1 "IEEE Computer Society Publications Board"
+.a1 "Committee member to develop proposal (with C. V. Ramamoorthy and P. B. Berra) for a new periodical, \fIIEEE Transactions on Knowledge and Data Engineering\fR, Oct. 1987; proposal was approved for publication by IEEE Computer Society Publications and Governing Boards;"
+.a1 "Transactions Advisory Committee: Member, 1988-1991;"
+.a1 "Ad Hoc Committee on Perception of Bias in the Review Process: Member, 1992;"
+.a1 "Transactions Operations Committee: Member, 1992-1996;"
+.a1 "Publications Board: Member, 1990, 1992-1996;"
+.a1 "Search Committee for EIC, IEEE Transactions on Knowledge and Data Engineering: Member, 1996; Chair, 2004;"
+.a1 "Search Committee for EIC, IEEE Computer: Member, 1996;"
+.a1 "Publications Planning Committee: Member, 1992, 1993;"
+.a1 "Vice President for Publications, 1998-99;"
+.a1 "Steering Committee of the IEEE Trans. on Networking: Member, 2001-2006.
+.hs
+.p1 "IEEE Computer Society Education Activities Board"
+.a1 "Model Program Subcommittee: Coordinator for Theory Area, 1981-1983;"
+.a1 "Ad Hoc Committee to examine Curricula'91 and the need for Curricula'2000: Chair, 1997;"
+.a1 "Curricula'2000 Committee: Member, 1998;"
+.a1 "Member at Large, 1997-1998."
+.hs
+.p1 "IEEE Computer Society Conferences and Tutorials Board"
+.a1 "Ad Hoc Committee on Evaluation of 14% Overhead in Conferences: Member, 1992."
+.hs
+.p1 "IEEE Computer Society Awards Committee"
+.a1 "Technology of the Decade Award Committee: Member of Board of Judges, 2006."
+.hs
+.p1 "IEEE Computer Society Press Activities Board"
+.a1 "Member, 1991-1996;"
+.a1 "Search Committee for Editor-in-Chief for CS Press: Chair, 1993."
+.hs
+.p1 "IEEE Computer Society Membership Activities Board"
+.a1 "IEEE-CS Students Scholarship Committee: Chair, 1993;"
+.a1 "Membership Activities Board: Member, 1993;"
+.a1 "Representative to Awards Committee: Member, 1993;"
+.a1 "Ad Hoc Committee to revise DVP Policies and Procedures: Member, 1993."
+.hs
+.p1 "IEEE Computer Society Chapters Activities Board"
+.a1 "DVP Asia/Pacific Advisory Committee: Member, 2003-05."
+.hs
+.p1 "IEEE Neural Network Council"
+.a1 "Council Member representing IEEE Computer Society, 1992-1993, 1995-1999, 2002-2003;"
+.a1 "Ad Hoc Committee developing guidelines for NNC conference organization, 1997-98."
+.hs
+.p1 "IEEE Technical Activities Board"
+.a1 "Finance Committee: Member, 1997, 2002;"
+.a1 "AD Hoc Committee to establish proper guidelines for the inclusion or removal of S/C's from the S/C Watch List: Member,  1997;"
+.a1 "Periodicals Committee: Member, 2000;"
+.a1 "Products Committee: Member, 2002;"
+.a1 "RAB/TAB Business Simplification Team, 2002;"
+.a1 "Colloquia Steering Committee, 2003, 2004."
+.hs
+.p1 "IEEE Educational Activities Board"
+.a1 "Society Outreach Committee (SOOC): Member, 2005, 2006."
+.hs
+.p1 "IEEE"
+.a1 "Operations Review Committee: Member, 2002."
+.hs
+.p1 "ACM/IEEE Computer Society, Computer Science Accreditation Activities Committee"
+.a1 "Computer Science Accreditation Commission (CSAC): Visitor, 1987-1993."
+.hs
+.p1 "IEEE-ABET (Accreditation Board for Engineering and Technology)"
+.a1 "Program Evaluator, 1988-1992."
+.hs
+.p1 "Computer Research Association (CRA)"
+.a1 "Member, CRA Distinguished Service Award committee, 2004-2005;"
+.a1 "Member, Membership Committee, 2006-2007;"
+.a1 "Member, 2005-present."
+.hs
+.p1 "Association for Computing Machinery"
+.a1 "Student Member, 1977-1979;"
+.a1 "Member, 1979-Present."
+.hs
+.p1 "American Association of Artificial Intelligence"
+.a1 "Member, 1984-Present."
+.hs
+.p1 "American Association for the Advancement of Science"
+.a1 "Member, 2004-present."
+.hs
+.p1 "Society for Design and Process Science"
+.a1 "Fellow, 1997-present."
+.hs
+.p1 "Tau Beta Pi"
+.a1 "Member, 1974-present."
+.hs
+.p1 "Eta Kappa Nu"
+.a1 "Member, 1974-present."
+.hs
+.p1 "American Society for Engineering Education"
+.a1 "Member, 1999-present."
+.hs
+.p1 "Association for Intelligent Machinery"
+.a1 "Board of Directors: Member, 2001-present."
+.hs
+.p1 "Web Intelligence Consortium"
+.a1 "Member, Advisory Board, 2002-present."
+.lf 135 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBConference Activities\fR
+.sp
+.lf 1 /users/wah/Pers/Vita/Vita/activity.conference
+.c1 "IEEE COMPCON Spring"
+.a1 "Student Coordinator, 1978, 1979."
+.hs
+.c1 "ACM Workshop on Computer Architecture for Non-Numeric Processing"
+.a1 "Member, Program Committee, 1981."
+.hs
+.c1 "IEEE Int'l Conf. on Entity-Relationship Approach"
+.a1 "Member, Program Committee, 1985;"
+.a1 "Session Chairperson, 1985."
+.hs
+.c1 "IEEE Real-Time Systems Symp."
+.a1 "Member, Program Committee, 1983."
+.hs
+.c1 "AFIPS National Computer Conf."
+.a1 "Session Organizer and Chairman, 1984."
+.hs
+.c1 "IEEE Workshop on Computer Architecture for Pattern Analysis and Image Database Management"
+.a1 "Publication Chairman, 1981;"
+.a1 "Session Chairman, 1985."
+.hs
+.c1 "Int'l Conf. on Parallel Processing, Pennsylvania State University"
+.a1 "Session Chairman, 1986, 1988, 1989;"
+.a1 "Program Chairman, 1990."
+.hs
+.c1 "ACM-IEEE Fall Joint Computer Conf."
+.a1 "Session Chairman, 1986."
+.hs
+.c1 "IEEE Int'l Conf. on Distributed Computing Systems"
+.a1 "Publication Chairman, 1982;"
+.a1 "Session Chairman, 1982;"
+.a1 "Vice Program Chairman, Distributed Database Systems, 1988;"
+.a1 "Vice Program Chairman, Distributed Database and Fault-Tolerance, 1989;"
+.a1 "Program Chairman, 1991;"
+.a1 "General Chairman, 1993;"
+.a1 "Member, Steering Committee, 1993-present;"
+.a1 "Awards Committee Chair, 1996;"
+.a1 "Co-General Chair, 2008."
+.hs
+.c1 "IEEE Computer Software and Applications Conf."
+.a1 "Session Chairperson, 1980, 1982-1986, 1990;"
+.a1 "Member, Program Committee, 1985-1993, 1996, 2000;"
+.a1 "Session Organizer, 1985;"
+.a1 "Panel Organizer, 1986;"
+.a1 "Program Chairman, 1995."
+.hs
+.c1 "Annual Allerton Conf. on Communication, Control, and Computing, University of Illinois at Urbana-Champaign"
+.a1 "Member, Steering Committee, 1986-1987;"
+.a1 "Session Chairman, 1987."
+.hs
+.c1 "IEEE Int'l Conf. on Data Engineering"
+.a1 "Member, Steering Committee, 1988-1993;"
+.a1 "Chair, Steering Committee, 1994-1995;"
+.a1 "Proceedings Editor, 1984;"
+.a1 "Member, Program Committee, 1984, 1985;"
+.a1 "Co-Program Chairman, 1986;"
+.a1 "Program Chairman, 1987;"
+.a1 "General Chairman, 1988;"
+.a1 "Session Chairman, 1990."
+.hs
+.c1 "VLSI Workshop, IEEE Technical Committee on VLSI"
+.a1 "Member, Program Committee, 1986, 1987;"
+.a1 "Session Organizer and Chairman, 1987."
+.hs
+.c1 "Joint Israel-American Workshop on VLSI: Architecture and Design, National Science Foundation, U.S.A. and Ministry of Science and National Council for Research and Development, Israel"
+.a1 "Session Chair: Design Methodologies, 1987."
+.hs
+.c1 "Int'l Workshop on VLSI for Artificial Intelligence, University of Oxford"
+.a1 "Member, Program Committee, 1988, 1990, 1991."
+.hs
+.c1 "IEEE-SPIE Int'l Conf. on Systolic Arrays"
+.a1 "Member, Program Committee, 1988."
+.hs
+.c1 "IEEE Workshop on Languages for Automation"
+.a1 "Member, Program Committee, 1988."
+.hs
+.c1 "IEEE Int'l Conf. on Computer Languages"
+.a1 "Member, Program Committee, 1988."
+.hs
+.c1 "IEEE Annual AI Systems in Government Conf."
+.a1 "Member, Program Committee, 1988, 1989."
+.hs
+.c1 "AAAI Workshop on Parallel Algorithms for Machine Intelligence and Pattern Recognition"
+.a1 "Session Chair: Constraint Propagation, 1988."
+.hs
+.c1 "IEEE Int'l Conf. on Tools with Artificial Intelligence"
+.a1 "Member, Steering Committee, 1989-present;"
+.a1 "Program Chair, 1991;"
+.a1 "Session Chair: Neural Network Applications, 1997;"
+.a1 "Co-General Chair, 1998."
+.hs
+.c1 "NSF Industry-University Symp.: National Agenda and Priorities in Computer Science and Engineering Research"
+.a1 "Session Chair: Communication/Control/Signal Processing \(em VLSI/CAD, 1991."
+.hs
+.c1 "IEEE Int'l Symp. on Architectures, Languages and Algorithms for Artificial Intelligence"
+.a1 "Member, Steering Committee, 1989."
+.hs
+.c1 "Very Large Data Bases Conf."
+.a1 "Member, Program Committee, 1990, 1993."
+.a1 "United States Coordinator, 1992."
+.hs
+.c1 "Conf. on Data Base and Expert Systems Applications"
+.a1 "Member, Program Committee, 1990."
+.hs
+.c1 "Int'l Computer Symp., Taiwan"
+.a1 "Member, Program Committee, 1990;"
+.a1 "Co-Program Chair, 1992;"
+.a1 "Overseas Member, Steering Committee, 1996;"
+.a1 "Member, Advisory Committee, 1998."
+.hs
+.c1 "IEEE-ACM Int'l Parallel Processing Symp."
+.a1 "Member, Program Committee, 1991, 1994."
+.hs
+.c1 "Int'l Conf. on Intelligent and Cooperative Information Systems"
+.a1 "Member, Program Committee, 1991, 1993."
+.hs
+.c1 "Mid-America Chinese Professional Annual Convention, Chicago, IL"
+.a1 "Session Chair: Information Engineering Technology Development, 1991."
+.hs
+.c1 "Artificial Neural Networks in Engineering, Rolla, MI"
+.a1 "Member, Organizing Committee, 1992, 1993, 1994."
+.hs
+.c1 "IEEE Symp. on High Performance Distributed Computing, Syracuse, NY"
+.a1 "Member, Program Committee, 1992, 1995."
+.hs
+.c1 "NSF High Performance Computing and Communications (HPCC) Workshop: Vision, Natural Language and Speech Processing, and Artificial Intelligence, Washington, DC"
+.a1 "Workshop Organizer and Chair, Feb. 1992."
+.hs
+.c1 "IEEE Int'l Conf. on Parallel and Distributed Systems"
+.a1 "Member, Program Committee, 1992, 1998;"
+.a1 "Panel Organizer, 1992;"
+.a1 "Co-Program Chairman, 1993;"
+.a1 "Int'l Advisory Committee, 1994;"
+.a1 "General Chair, 2004."
+.hs
+.c1 "IEEE Int'l Conf. on Application Specific Array Processing"
+.a1 "Program Chairman, 1993;"
+.a1 "General Co-Chair, 1994;"
+.a1 "Program Committee member, 1995, 1996, 1997, 2000;"
+.a1 "Session Chair, 1997."
+.hs
+.c1 "IEEE Int'l Conf. on Data and Knowledge Systems for Manufacturing and Engineering, Hong Kong"
+.a1 "Member, Int'l Advisory Committee and Program Committee, 1994."
+.hs
+.c1 "IEEE Symp. on Parallel and Distributed Processing"
+.a1 "Session Chairman, 1993;"
+.a1 "Program Committee, 1994."
+.hs
+.c1 "Pacific Rim Int'l Conf. on Artificial Intelligence, Chinese Academy of Sciences"
+.a1 "Program Co-Chair, 1994;"
+.a1 "Panel Organizer: Hardware and Software Architectures for AI, 1994;"
+.a1 "Member, Steering Committee, 1994-present."
+.hs
+.c1 "ACM Int'l Conf. on Information and Knowledge Management"
+.a1 "Program Vice-Chair, 1994."
+.hs
+.c1 "Workshop on Digital Libraries, Rutgers University"
+.a1 "Member, Program Committee, 1994."
+.hs
+.c1 "7th Int'l Conf. on Compputing and Information"
+.a1 "Member, Program Committee, 1995."
+.hs
+.c1 "3rd Int'l Conf. on System Integration"
+.a1 "Member, Program Committee, 1994."
+.hs
+.c1 "5th IEEE-CS Workshop on Future Trends of Distributed Computing Systems"
+.a1 "Member, Program Committee, 1995."
+.hs
+.c1 "ACM Int'l Workshop on Advances in Geographic Information Systems"
+.a1 "Member, Program Committee, 1995, 1996."
+.hs
+.c1 "Int'l Conf. on  Neural Information Processing (ICONIP)"
+.a1 "Member, Program Committee, 1996;"
+.a1 "Member, Int'l Advisory Board, 2002;"
+.a1 "Member, Int'l Advisory Board, 2006."
+.hs
+.c1 "DIMACS Workshop on Satisfiability Problem: Theory and Applications"
+.a1 "Advisory Committee, 1996."
+.hs
+.c1 "Int'l Symp. on Parallel Architectures, Algorithms, and Networks (I-SPAN)"
+.a1 "Advisory Committee, 1996."
+.hs
+.c1 "C. V. Ramamoorthy Workshop on Advances in Computer Science and Engineering"
+.a1 "General Chair and Organizer, 1996."
+.hs
+.c1 "IEEE Int'l Conf. on Neural Networks"
+.a1 "General Chair, 1996."
+.hs
+.c1 "IEEE Knowledge and Data Engineering Exchange Workshop (KDEX)"
+.a1 "Honorary Conf. Chair, 1997"
+.hs
+.c1 "IEE Int'l Conf. in Asia Region, Information Technology 1998 and Beyond"
+.a1 "Member, Program Committee, 1998."
+.hs
+.c1 "Int'l Symp. on Internet Technology, III, Taiwan"
+.a1 "Co-Program Chair, 1998."
+.hs
+.c1 "Joint Conf. on Information Sciences"
+.a1 "Member, Program Committee, 1998;"
+.a1 "Member, Steering Committee, Second Int'l Workshop on Intelligent Multimedia Computing and Networking, 2002."
+.hs
+.hs
+.c1 "IEEE-CASSE Symp. on Application-Specific System and Software Engineering"
+.a1 "Program Committee Chair, 1999."
+.hs
+.c1 "First Asia-Pacific Conf. on Intelligent Agent Technology"
+.a1 "Honorary General Chair, 1999."
+.hs
+.c1 "Integrated Design and Process Technology Conf., Society for Design and Process Science"
+.a1 "General Cochair, 2000."
+.hs
+.c1 "IFIP World Congress'2000"
+.a1 "Int'l Program Committee Chair, 2000."
+.hs
+.c1 "IEEE Congress on Evolutionary Computation"
+.a1 "Member, Program Committee, 1999."
+.hs
+.c1 "IEEE Computer Congress, IEEE Hong Kong Section"
+.a1 "Member, Advisory Committee, 1999."
+.hs
+.c1 "Int'l Symp. on Intelligent Multimedia and Distance Education, Germany"
+.a1 "Member, Program Committee, 1999."
+.hs
+.c1 "AAAI National Conf. on Artificial Intelligence"
+.a1 "Session Chairperson, 1999;"
+.a1 "Member, Program Committee, 2005."
+.hs
+.c1 "Int'l Conf. on Information Society in the 21 Century (IS2000), Aizu-Wakamatsu City, Japan"
+.a1 "Advisory Committee, 2000."
+.hs
+.c1 "IEEE Int'l Symp. on Autonomous Decentralized Systems"
+.a1 "Member, Program Committee, 2001, 2005."
+.hs
+.c1 "SPIE 2nd Int'l Symp. on Multispectral Image Processing And Pattern Recognition, Wuhan, China"
+.a1 "Hononary Conf. Chair, 2001."
+.hs
+.c1 "Int'l Conf. on Principles and Practice of Constraint Programming"
+.a1 "Member, Program Committee, 2001."
+.hs
+.cl "6th Pacific-Asia Conf. on Knowledge Discovery and Data Mining"
+.a1 "Honorary Chair, 2002."
+.hs
+.c1 "IEEE TENCON (Region 10 Conf.)"
+.a1 "Advisory Committee, 2002."
+.hs
+.c1 "IEEE Int'l Symp. on Applications and the Internet (SAINT)"
+.a1 "Member, Steering Committee, 2002-2004;"
+.a1 "Co-General Chair, 2005."
+.hs
+.c1 "IEEE Int'l Symp. on Multimedia Software Engineering"
+.a1 "Honorary Conf. Co-Chair, 2002."
+.hs
+.c1 "IEEE Int'l Conf. on Intelligent Information Technology, Beijing, China"
+.a1 "Co-Conf. Chair, 2002;"
+.a1 "Program Committee Member, 2004."
+.hs
+.c1 "IEEE Int'l Conf. on Data Mining"
+.a1 "Member, Steering Committee, 2002-2004;"
+.a1 "Member, Program Committee, 2003, 2004;"
+.a1 "Program Committee Co-Chair, 2005."
+.hs
+.c1 "IEEE Int'l Conf. on Computer Networks and Mobile Computing"
+.a1 "Co-General Chair, 2003;"
+.a1 "Chair, Steering Committee, 2005."
+.hs
+.c1 "Workshop on Mining Temporal and Sequential Data, Tenth ACM SIGKDD Int'l Conf. on Knowledge Discovery and Data Mining"
+.a1 "Member, Program Committee, 2004."
+.hs
+.c1 "SIAM International Conference on Data Mining"
+.a1 "Member, Program Committee, 2005."
+.hs
+.c1 "1st WSEAS Int'l Symp. on Data Mining"
+.a1 "Member, Int'l Scientific Committee, 2005."
+.hs
+.c1 "IEEE Computer Society TCII Congress (Int'l Conf. on Data Mining, Int'l Conf. on Web Intelligence, Int'l Conf. on Intelligent Agent Technologies)"
+.a1 "Co-General Chair, 2006."
+.hs
+.c1 "IEEE Multimedia Symposium"
+.a1 "Member, Advisory Committee, 2005."
+.hs
+.c1 "IEEE Int'l Conf. on Sensor Networks, Ubiquitous and Trustworthy Computing"
+.a1 "Member, Advisor Committee, 2006."
+.hs
+.c1 "IEEE Int'l Conf. on E-Business Engineering"
+.a1 "Honorary Chair, 2006."
+.hs
+.c1 "2nd Int'l Computer Engineering Conf. (ICENCO2006)"
+.a1 "Member, Program Committee, 2006."
+.hs
+.c1 "11th Pacific-Asia Conf. on Knowledge Discovery and Data Mining (PAKDD'07)"
+.a1 "Member, Program Committee, 2007."
+.hs
+.c1 "IEEE Symposium Series on Computational Intelligence"
+.a1 "Member, Program Committee, 2007."
+.hs
+.c1 "IEEE Int'l Conf. on Multimedia and Expo"
+.a1 "Member, Advisory Committee, 2007."
+.hs
+.c1 "IEEE Int'l Conf. on Electronics and Information Technology Convergence (ICEITC'07)"
+.a1 "Co-General Chair, 2007."
+.lf 142 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 8
+.ti 0
+\fBM. S. Thesis Supervision Completed\fR
+.sp
+.lf 1 /users/wah/Pers/Vita/Vita/student.thesis.ms
+.[ TM01 .]
+.[ TM02 .]
+.[ TM03 .]
+.[ TM04 .]
+.[ TM05 .]
+.[ TM06 .]
+.[ TM07 .]
+.[ TM08 .]
+.[ TM09 .]
+.[ TM10 .]
+.[ TM11 .]
+.[ TM12 .]
+.[ TM13 .]
+.[ TM14 .]
+.[ TM15 .]
+.[ TM16 .]
+.[ TM17 .]
+.[ TM18 .]
+.[ TM19 .]
+.[ TM20 .]
+.lf 149 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 8
+.ti 0
+\fBPh. D. Thesis Supervision Completed\fR
+.sp
+.lf 1 /users/wah/Pers/Vita/Vita/student.thesis.phd
+.[ TP01 .]
+.[ TP02 .]
+.[ TP03 .]
+.[ TP04 .]
+.[ TP05 .]
+.[ TP06 .]
+.[ TP07 .]
+.[ TP08 .]
+.[ TP09 .]
+.[ TP10 .]
+.[ TP11 .]
+.[ TP12 .]
+.[ TP13 .]
+.[ TP14 .]
+.[ TP15 .]
+.[ TP16 .]
+.[ TP17 .]
+.[ TP18 .]
+.lf 156 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 8
+.ti 0
+\fBPost-Doc. Fellows Supervised\fR
+.sp
+.in -0.25i
+.nf
+.ta 1.5i 2.5i
+.lf 1 /users/wah/Pers/Vita/Vita/student.postdoc
+Guo-liang Chen	Aug. 81-July 83	University of Science and Technology, China
+Guo-jie Li	Jan. 86-Dec. 86	Chinese Academy of Sciences, China
+Huo-Yan Chen	Aug. 86-July 87	Jinan University, China
+Yao-Jen Chang	Aug. 92-July 94	Chung Yuan University, Taiwan
+Aikiko Aizawa	Aug. 92-July 94	National Institute of Informatics, Japan
+Yao-Jen Chang	Aug. 92-July 94	Chung Yuan Christian University, Taiwan
+Min-Je Kang	Mar. 03-Feb. 04	Cheju National University, Korea
+.lf 165 /home/manip2/wah/Pers/Vita/master_vita
+.ta
+.fi
+.in +0.25i
+.sp 2
+.ne 8
+.ti 0
+\fBM.S. and Ph.D. Thesis Students Currently Being Supervised\fR
+.sp
+.in -0.25i
+.nf
+.ta 2.5i
+.lf 1 /users/wah/Pers/Vita/Vita/student.current
+Chih-Wei Hsu	Ph.D.
+Zixia Huang	M.S.
+Soomin Lee	Ph.D.
+Ying-Chuan Liu	M.S.
+Batu Sat	Ph.D.
+Hang Yu	Ph.D.
+.lf 177 /home/manip2/wah/Pers/Vita/master_vita
+.ta
+.fi
+.in +0.25i
+.sp 2
+.ne 8
+.ti 0
+\fBCourses Developed\fR
+.sp 0.5v
+.in -0.25i
+.TS
+l l.
+.lf 1 /users/wah/Pers/Vita/Vita/course.developed
+EE 660Z	Distributed Databases, Fall 1980
+EE 695D (EE560)	Distributed Processing, Spring 1982, Fall 1984
+EE 695D	Analysis Technique for Digital Design, Spring 1983
+EE 608	Computational Models and Methods, Spring 1983
+ECE 497	Parallel and Distributed Computing, Spring 1993
+ECE 335/CS 332	Computer Networking Laboratory, (Offered as ECE 371BW in Fall 1996, Fall 1997,
+	Spring 2000, Spring 2001; approved as permanent course in Spring 2002)
+.lf 189 /home/manip2/wah/Pers/Vita/master_vita
+.TE
+.in +0.25i
+.sp 2
+.ne 5
+.ti 0
+\fBSchool Committee Activities\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/committee.school
+.m1 "Research Board, University of Illinois, Urbana-Champaign"
+.a1 "Member, 1997-2000."
+.hs
+.m1 "Computer Engineering Area"
+.a1 "Member (Purdue), 1979-Spring 1985;"
+.a1 "Member (Univ. of Illinois), 1985-present;"
+.a1 "Chair (Univ. of Illinois), 1990-1991."
+.hs
+.m1 "Graduate Committee"
+.a1 "Member, 1994-1998."
+.hs
+.m1 "Promotions Review Committee"
+.a1 "Member, 1999-present."
+.hs
+.m1 "Curriculum"
+.a1 "Member (Purdue), 1980-1983;"
+.a1 "Member (Univ. of Illinois), 1992-1994."
+.hs
+.m1 "College of Engineering Executive Committee, Univ. of Illinois"
+.a1 "Member, Library Subcommittee, 1990-1996;"
+.a1 "Member, Subcommittee on Computer and Networks, 1997-98;"
+.a1 "Member, Subcommittee on Strategic Planning for Computers and Networks, 1996-97;"
+.a1 "Chair, Subcommittee to Review a Proposal for Curriculum Revisions in the Computer Science Department, 2003."
+.hs
+.m1 "Computational Science and Engineering Program"
+.a1 "Member, Steering Committee (Univ. of Illinois), 1996-1998;"
+.a1 "Member, Fellowship Committee, 2003."
+.hs
+.m1 "Dept. ECE Computational Science and Engineering Committee"
+.a1 "Chair (Univ. of Illinois), 1996-1998."
+.hs
+.m1 "Dept. ECE Computer Resources and Education Committee"
+.a1 "Member (Univ. of Illinois), 1996-1997."
+.hs
+.m1 "Ad Hoc Computer Engineering Area"
+.a2 "Member (Purdue), to develop undergraduate computer engineering curriculum, 1980-1981;"
+.a2 "Member (Purdue), to evaluate undergraduate computer engineering curriculum, 1984;"
+.a2 "Chair (Univ. of Illinois), to develop introductory computing courses for ECE students, 1992;"
+.a2 "Member (Univ. of Illinois), to evaluate new course proposal (CS 377, Formal Methods for Software Development), 2003."
+.hs
+.m1 "Fellowship"
+.a1 "Member (Univ. of Illinois), 1986-1990."
+.hs
+.m1 "Coordinated Science Laboratory, University of Illinois"
+.a1 "Elected Member, Policy and Planning Committee, 1989-1991;"
+.a1 "Ad Hoc Committee, CSL Service Award, 1994;"
+.a1 "Member, CSL Distinguished Scholars Committee, Spring 2001-present."
+.hs
+.m1 "Faculty Search"
+.a1 "Member (Univ. of Illinois), 1990-1991, 2003-2004."
+.hs
+.m1 "Teaching Evaluation and Awards"
+.a1 "Member (Univ. of Illinois), 2005-present."
+.hs
+.m1 "Ph.D. Qualifying Examination"
+.a1 "Member (Purdue), 1981-1985;"
+.a1 "Member (Univ. of Illinois), 1989-1990."
+.hs
+.m1 "Purdue Electrical Engineering Industrial Institute"
+.a2 "Industry Liaison Representative for Intel Corp.,"
+.a1 "Member, Internal Advisory Board, 1980-1981."
+.lf 197 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 8
+.ti 0
+\fBState-Wide Committee Activities\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/committee.state
+.p1 "Indiana Corporation for Science and Technology"
+.a1 "Member, Artificial Intelligence Committee, 1984-1985."
+.lf 203 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 8
+.ti 0
+\fBNational and International Committee Activities\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/committee.national
+.p1 "National Science Foundation"
+.a1 "Oversight Panel, Microelectronic System Architecture Program, July 1989."
+.a2 "Member, Panel on selecting Presidential Young Investigators,"
+.a1 "CISE Directorate, Jan. 1990;"
+.a2 "Member, Site Visit Team to evaluate NSF ERC on Optoelectronics,"
+.a1 "University of Colorado, Boulder, April 1988, April 1989, April 1991;"
+.a1 "Member, Panel on Postdoctoral Program in Computer and Information Science and Engineering, Feb. 94;"
+.a1 "Member, Panel on Research Initiation Award in MIPS, March 1994;"
+.a1 "Committee of Visitors: CCR Division, 1999, 2001;"
+.a1 "Member, Panel on Advanced Execution Systems Program, March 2006."
+.hs
+.p1 "National Aeronautics and Space Administration"
+.a2 "Member, External Review Team,"
+.a1 "Spaceborne VHSIC Multiprocessor System Project, June 1989."
+.hs
+.p1 "Computer Science Accreditation Commission (CSAC)"
+.a1 "Member, Accreditation Visit Team, University of Tulsa, Tulsa, OK, Oct. 1988;"
+.a2 "Member, Accreditation Visit Team, University of San Francisco,"
+.a1 "San Francisco, CA, Nov. 1990."
+.hs
+.p1 "Accreditation Board for Engineering and Technology (ABET)"
+.a2 "Member, Accreditation Visit Team, University of Florida,"
+.a1 "Gainesville, FL, Nov. 1989."
+.hs
+.p1 "Academia Sinica, Taiwan"
+.a2 "Institute of Information Science,"
+.a1 "Member, Advisory Board, Jan. 1991-Aug. 2004;"
+.a2 "Member, Editorial Advisory Board,"
+.a1 "\fIJournal of Information Science and Engineering\fR, 1992-present."
+.hs
+.p1 "Computer Society of India"
+.a2 "\fIComputer Science and Informatics Journal\fR, Member,"
+.a1 "Int'l Advisory Board, 1990-present."
+.hs
+.p1 "University of Hong Kong"
+.a2 "External Examiner, Computer Engineering Program,"
+.a1 "Jan. 1991-Dec. 1993."
+.a1 "Advisor, Department of Computer Science, April 1, 1994-Sept. 30, 1994."
+.a1 "Member, Search Committee for Chair of Computer Engineering, 1994;"
+.a2 "Member, Int'l Advisory Board,"
+.a1 "Dept. of Electrical and Electronic Engineering, 1995-1998."
+.hs
+.p1 "Chinese University of Hong Kong"
+.a2 "Visiting External Examiner,"
+.a1 "Undergraduate Programme in Computer Science and Computer Engineering, 1994-1997, 2003-2005; M.Sc. Programme in Computer Science and Computer Engineering, 2003-2005;"
+.a2 "Engineering Faculty Advisory Board, Member, 2004-2007;"
+.a2 "Advisory Board of the Shun Hing Institute of Advanced Engineering, 2004-2007."
+.hs
+.p1 "University of Waterloo"
+.a2 "External Examiner, Doctoral Defense Examination of Yuri Quintana,"
+.a2 "``Knowledge Base Organization Using Knowledge Intensive Conceptual
+.a1 "Clustering, June 14, 1995.''
+.hs
+.p1 "City University of Hong Kong"
+.a2 "Visiting External Examiner,"
+.a2 "Undergraduate Programme in Computer Science and Computer Engineering,"
+.a1 "1996-1998."
+.hs
+.p1 "Fundacao de Ciencia e Tecnologia (FCT), Portugal"
+.a2 "Proposal Evaulation Panel,"
+.a1 "March 1999."
+.hs
+.p1 "Tsing Hua University, Hsinchu, Taiwan"
+.a2 "Member, External Evaluation Committee, Dept. of Computer Science,"
+.a1 "April 2000."
+.hs
+.p1 "Joint Centre for Intelligence Engineering, Peking University and the Chinese University of Hong Kong,"
+.a2 "Member, Academic Advisory Committee,"
+.a1 "1999-present."
+.hs
+.p1 "York University, Ontario, Canada"
+.a2 "Consultant to the Appraisal Committee to assess the quality of gradudate programs in the Department of Computer Science,"
+.a1 "Feb. 28-March 1, 2001."
+.hs
+.p1 "Hong Kong University of Science and Technology"
+.a1 "Member, School of Engineering Advisory Committee, 2001-2008;"
+.a1 "Member, Department of Computer Science Advisory Committee, 2004-2010."
+.hs
+.p1 "Hong Kong Council for Academic Accreditation"
+.a2 "Overseas Member, Visit to Beijing Post and Communication University and Beijing Northern Jiao Tung University, China,"
+.a1 "March 2002;"
+.a2 "Overseas Member, Visit to Donghua University and the Shanghai University of Finance and Economics in Shanghai, and the Soochow University in Suzhou,"
+.a1 "Oct. 2002."
+.hs
+.p1 "Centre of Excellence for Research in Computational Intelligence and Applications (CERCIA), University of Birmingham, England"
+.a2 "Member, Scientific Board,"
+.a1 "August, 2003-present."
+.hs
+.p1 "Wright State University, Department of Computer Science"
+.a2 "Member,  Eminent Scholar Search Committee,"
+.a1 "2004-2006."
+.hs
+.p1 "Institute of Computing Technology, Chinese Academy of Sciences"
+.a2 "Member, Evaluation Committee,"
+.a1 "Oct. 27-29, 2004."
+.hs
+.p1 "University Grants Committee of Hong Kong"
+.a2 "Member, Research Grants Council, July 2005-June 2007;"
+.a2 "Member, Engineering Panel of RGC, July 2005-June 2006;"
+.a2 "Chair, Engineering Panel of RGC, July 2006-June 2008;"
+.a2 "Standing Committee Member, Central Allocation Sub-Committee, July 2006-June 2007;"
+.a2 "Deputy Convener, Computer Science/Information Technology Panel of Research Assessment Exercise, 2006."
+.hs
+.p1 "Beijing University of Technology"
+.a2 "Advisory Professor, International WIC Institute,"
+.a1 "2006-present."
+.lf 209 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 8
+.ti 0
+\fBConsulting Activities\fR
+.sp
+.in +0.2i
+.lf 1 /users/wah/Pers/Vita/Vita/activity.consulting
+.e1 "General Electric Company, Aerospace Division, Sept. 1986-Aug. 1988."
+.br
+.e1 "American Research Corporation of Virginia, May. 1990-May 1991."
+.br
+.e1 "Motorola, Inc., May 1991-Nov. 1991."
+.br
+.e1 "Georgia Institute of Technology, July 1992."
+.br
+.e1 "Softech, Inc., Dec. 1992-Nov. 1993."
+.br
+.el "Tramford, Inc., Jan. 2000-Dec. 2001."
+.br
+.e1 "OpenPark, Inc., Oct. 2000-Dec. 2003."
+.br
+.e1 "Kenyon and Kenyon, New York, 2001-2002."
+.br
+.e1 "Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC, 2002."
+.lf 217 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.in -0.2i
+.sp 2
+.ne 8
+.ti 0
+\fBJournal Editorship Positions\fR
+.sp
+.in +0.2i
+.lf 1 /users/wah/Pers/Vita/Vita/activity.editorship
+.e1 "Honorary Editor-in-Chief"
+.a2 "\fIKnowledge and Information Systems: An International Journal\fR, Springer-Verlag,"
+.a1 "1997-present."
+.br
+.e1 "Editor-in-Chief:"
+.a2 "\fIIEEE Transactions on Knowledge and Data Engineering\fR,"
+.a1 "1993-1996."
+.br
+.e1 "Editor-in-Chief:"
+.a2 "\fIEncyclopedia on Computer Science and Engineering\fR,"
+.a1 "John Wiley and Sons, 2000-present."
+.br
+.e1 "Editor:"
+.a2 "\fIWorld Wide Web\fR,"
+.a1 "Kluwer Academic Pub., 2001-present."
+.br
+.e1 "Associate Editor-in-Chief:"
+.a2 "\fIIEEE Transactions on Knowledge and Data Engineering\fR,"
+.a1 "1988-1992."
+.br
+.e1 "Editor:"
+.a2 "\fIIEEE Transactions on Software Engineering\fR,"
+.a1 "1985-1988."
+.br
+.e1 "Area Editor:"
+.a2 "\fIJournal of Parallel and Distributed Computing\fR, Academic Press,"
+.a1 "Dec. 1985-June 1995."
+.br
+.e1 "Advisory Board Member:"
+.a2 "\fIJournal of Parallel and Distributed Computing\fR, Academic Press,"
+.a1 "April 1999-present."
+.br
+.e1 "Associate Editor:"
+.a2 "\fIInformation Science\fR, Elsevier,"
+.a1 "1988-1993, 2004-present."
+.br
+.e1 "Senior Associate Editor"
+.a2 "\fIInformation Sciences\fR, Section A, Elsevier,"
+.a1 "1993-2003"
+.br
+.e1 "Editor"
+.a2 "\fIParallel Algorithms and Applications\fR,"
+.a2 "Taylor and Francis (UK),"
+.a2 "1997-2004."
+.br
+.e1 "Member, International Advisory Committee"
+.a2 "\fIJournal of Computer Science and Informatics\fR,"
+.a2 "Computer Society of India,"
+.a2 "1990-present."
+.br
+.e1 "Editor:"
+.a2 "\fIInternational Journal on Artificial Intelligence Tools\fR,"
+.a2 "World Scientific Publishing Co., Inc.,"
+.a1 "1991-present."
+.br
+.e1 "Editor:"
+.a2 "\fIJournal of VLSI Signal Processing\fR,"
+.a2 "Kluwer Academic Pub."
+.a1 "1994-present."
+.br
+.e1 "Member, Editorial Committee:"
+.a2 "\fIChinese Journal of Electronics\fR,"
+.a2 "Chinese Institute of Electronics, Beijing, China"
+.a1 "1996-2000"
+.br
+.e1 "Vice Chair, Editorial Committee:"
+.a2 "\fIChinese Journal of Electronics\fR,"
+.a2 "Chinese Institute of Electronics, Beijing, China"
+.a1 "2001-2005"
+.br
+.e1 "Editor-in-Charge:"
+.a2 "\fISeries on Artificial Intelligence\fR,"
+.a2 "World Scientific Publishing Co., Inc.,"
+.a1 "1993-1996."
+.br
+.e1 "Editorial Board Member:"
+.a2 "\fIVLSI Technical Bulletin\fR,"
+.a2 "IEEE Computer Society Technical Committee on VLSI\fR,"
+.a1 "1986-1996."
+.br
+.e1 "Editorial Board Member:"
+.a2 "\fINeural Processing Letters\fR,"
+.a2 "Kluwer Academic Press,"
+.a1 "1999-present."
+.br
+.e1 "Editor:"
+.a2 "Journal of Computer Science and Technology,"
+.a1 "Chinese Academy of Sciences, Beijing, China, 2000-2010."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIIEEE Computer\fR,"
+.a2 "Special Issue on Computers for Artificial Intelligence Applications,"
+.a1 "Vol. 20, No. 1, Jan. 1987."
+.br
+.e1 "Co-Guest Editor (with J. Fortes):"
+.a2 "\fIIEEE Computer\fR,"
+.a2 "Special Issue on Systolic Arrays: From Concept to Implementation,"
+.a1 "Vol. 20, No. 4, July 1987."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIIEEE Transactions on Software Engineering\fR,"
+.a2 "Special Section on the Third International Conference on Data Engineering,"
+.a1 "Vol. SE-14, No. 7, July 1988."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIIEEE Transactions on Software Engineering\fR,"
+.a2 "Special Section on Artificial Intelligence in Software Engineering,"
+.a1 "Vol. SE-14, No. 12, Dec. 1988."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIInformation Science\fR, Elsevier,"
+.a2 "Special Issue on Data Engineering,"
+.a1 "Vol. 48, No. 2, July 1989."
+.br
+.e1 "Co-Guest Editor (with D. Padua and P. C. Yew):"
+.a2 "\fIIEEE Transactions on Parallel and Distributed Systems\fR,"
+.a2 "Special Issue on Parallel Languages, Compilers and Architectures,"
+.a1 "Vol. PDS-2, No. 2, June 1991."
+.br
+.e1 "Co-Guest Editor (with P. C. Yew):"
+.a2 "\fIJournal of Parallel and Distributed Computing\fR, Academic Press,"
+.a2 "Special Issue on Shared-Memory Multiprocessors,"
+.a1 "Vol. 12, No. 2, June 1991."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIIEEE Transactions on Computers\fR,"
+.a2 "Special Issue on Neural Networks,"
+.a1 "Vol. C-39, No. 12, Dec. 1991."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIInternational Journal on Artificial Intelligence Tools\fR,"
+.a2 "World Scientific Publishing Co., Inc.,"
+.a2 "Special Issue on 3rd International Conference on Tools"
+.a1 "for Artificial Intelligence, Vol. 2, No. 1, March 1993."
+.br
+.e1 "Guest Editor:"
+.a2 "\fIJournal of VLSI for Signal Processing\fR,"
+.a2 "Kluwer Academic Pub.,"
+.a1 "Special Issue on on Application-Specific Array Processors, Vol. 9, No. 3, April 1995."
+.br
+.e1 "Editor on Knowledge and Data Engineering:"
+.a2 "Encyclopedia of Electrical and Electronics Engineering,"
+.a1 "John Wiley & Sons, 1996."
+.br
+.e1 "Co-Guest Editor (with R. Sarker):"
+.a2 "\fIInt'l Journal on Computational Intelligence and Applications\fR,"
+.a2 "Imperial College Press, UK,"
+.a2 "Special Issue on Evolutionary Optimization, vol. 3, no. 4, Dec. 2003."
+.br
+.e1 "Co-Guest Editor (with R. Lau, Q. Li, and C. L. Liu):"
+.a2 "\fIIEEE Trans. on Multimedia\fR,"
+.a2 "Special Issue on Advanced Server Technologies for Distributed Media Applications, (to appear 2005)."
+.br
+.e1 "Co-Guest Editor (with S. Y. Kung):"
+.a2 "Section 4: Digital Systems and Computer Engineering, \fIThe Electrical Engineering Handbook\fR (ed. W. K. Chen),"
+.a2 "Elsevier Academic Press, 2005."
+.lf 226 /home/manip2/wah/Pers/Vita/master_vita
+.in -0.2i
+.LP
+.FS
+*: Publications which have undergone stringent editorial review by peers.
+.br
+**: Invited papers that carry with it prestige and recognition.
+.br
+***: Best Paper Award.
+.br
+****: One of the ten best Ph.D. Theses to be published as a book by UMI Research Press in 1980.
+.br
+s: Publications derived from Ph.D. Thesis.
+.br
+!: 5 or less publications considered important in the last decade.
+.FE
+.sp 2
+.ne 4
+.ti 0
+\fBBooks Authored or Co-Authored\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.book.authored
+.[ B01 .]
+.[ B02 .]
+.lf 247 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 7
+.ti 0
+\fBBooks Edited or Co-Edited\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.book.edited
+.[ BE01 .]
+.[ BE02 .]
+.[ BE03 .]
+.lf 253 /home/manip2/wah/Pers/Vita/master_vita
+.sp 2
+.ne 7
+.ti 0
+\fBBook Chapters Authored or Co-Authored\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.book.chapter
+.[ BC01 .]
+.[ BC02 .]
+.[ BC03 .]
+.[ BC04 .]
+.[ BC05 .]
+.[ BC06 .]
+.[ BC07 .]
+.[ BC08 .]
+.[ BC09 .]
+.[ BC10 .]
+.[ BC11 .]
+.[ BC12 .]
+.[ BC13 .]
+.[ BC14 .]
+.[ BC15 .]
+.[ BC16 .]
+.[ BC17 .]
+.[ BC18 .]
+.[ BC19 .]
+.[ BC20 .]
+.[ BC21 .]
+.[ BC22 .]
+.[ BC23 .]
+.[ BC24 .]
+.[ BC25 .]
+.[ BC26 .]
+.[ BC27 .]
+.[ BC28 .]
+.lf 259 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 8
+.ti 0
+\fBSerial Journal Regular Articles\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.journal
+.[ J01 .]
+.[ J02 .]
+.[ J03 .]
+.[ J04 .]
+.[ J05 .]
+.[ J06 .]
+.[ J07 .]
+.[ J08 .]
+.[ J09 .]
+.[ J10 .]
+.[ J11 .]
+.[ J12 .]
+.[ J13 .]
+.[ J14 .]
+.[ J15 .]
+.[ J16 .]
+.[ J17 .]
+.[ J18 .]
+.[ J19 .]
+.[ J20 .]
+.[ J21 .]
+.[ J22 .]
+.[ J23 .]
+.[ J24 .]
+.[ J25 .]
+.[ J26 .]
+.[ J27 .]
+.[ J28 .]
+.[ J29 .]
+.[ J30 .]
+.[ J31 .]
+.[ J32 .]
+.[ J33 .]
+.[ J34 .]
+.[ J35 .]
+.[ J36 .]
+.[ J37 .]
+.[ J38 .]
+.[ J39 .]
+.[ J40 .]
+.[ J41 .]
+.[ J42 .]
+.[ J43 .]
+.[ J44 .]
+.[ J45 .]
+.[ J46 .]
+.[ J47 .]
+.[ J48 .]
+.[ J49 .]
+.[ J50 .]
+.[ J51 .]
+.[ J52 .]
+.[ J53 .]
+.[ J54 .]
+.[ J55 .]
+.[ J56 .]
+.[ J57 .]
+.[ J58 .]
+.[ J59 .]
+.[ J60 .]
+.[ J61 .]
+.[ J62 .]
+.[ J63 .]
+.[ J64 .]
+.[ J65 .]
+.[ J66 .]
+.[ J67 .]
+.[ J68 .]
+.[ J69 .]
+.[ J70 .]
+.[ J71 .]
+.[ J72 .]
+.[ J73 .]
+.[ J74 .]
+.[ J75 .]
+.[ J76 .]
+.[ J77 .]
+.[ J78 .]
+.[ J79 .]
+.[ J80 .]
+.[ J81 .]
+.[ J82 .]
+.[ J83 .]
+.[ J84 .]
+.[ J85 .]
+.[ J86 .]
+.[ J87 .]
+.[ J88 .]
+.[ J89 .]
+.lf 266 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 4
+.ti 0
+\fBPending Serial Journal Articles\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.journal.pend
+.lf 273 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBPatents\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.patent
+.[ patent efficient content resolution wah juang .]
+.[ PAT2 .]
+.lf 280 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBConference Proceedings\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.conference
+.[ C001 .]
+.[ C002 .]
+.[ C003 .]
+.[ C004 .]
+.[ C005 .]
+.[ C006 .]
+.[ C007 .]
+.[ C008 .]
+.[ C009 .]
+.[ C010 .]
+.[ C011 .]
+.[ C012 .]
+.[ C013 .]
+.[ C014 .]
+.[ C015 .]
+.[ C016 .]
+.[ C017 .]
+.[ C018 .]
+.[ C019 .]
+.[ C020 .]
+.[ C021 .]
+.[ C022 .]
+.[ C023 .]
+.[ C024 .]
+.[ C025 .]
+.[ C026 .]
+.[ C027 .]
+.[ C028 .]
+.[ C029 .]
+.[ C030 .]
+.[ C031 .]
+.[ C032 .]
+.[ C033 .]
+.[ C034 .]
+.[ C035 .]
+.[ C036 .]
+.[ C037 .]
+.[ C038 .]
+.[ C039 .]
+.[ C040 .]
+.[ C041 .]
+.[ C042 .]
+.[ C043 .]
+.[ C044 .]
+.[ C045 .]
+.[ C046 .]
+.[ C047 .]
+.[ C048 .]
+.[ C049 .]
+.[ C050 .]
+.[ C051 .]
+.[ C052 .]
+.[ C053 .]
+.[ C054 .]
+.[ C055 .]
+.[ C056 .]
+.[ C057 .]
+.[ C058 .]
+.[ C059 .]
+.[ C060 .]
+.[ C061 .]
+.[ C062 .]
+.[ C063 .]
+.[ C064 .]
+.[ C065 .]
+.[ C066 .]
+.[ C067 .]
+.[ C068 .]
+.[ C069 .]
+.[ C070 .]
+.[ C071 .]
+.[ C072 .]
+.[ C073 .]
+.[ C074 .]
+.[ C075 .]
+.[ C076 .]
+.[ C077 .]
+.[ C078 .]
+.[ C079 .]
+.[ C080 .]
+.[ C081 .]
+.[ C082 .]
+.[ C083 .]
+.[ C084 .]
+.[ C085 .]
+.[ C086 .]
+.[ C087 .]
+.[ C088 .]
+.[ C089 .]
+.[ C090 .]
+.[ C091 .]
+.[ C092 .]
+.[ C093 .]
+.[ C094 .]
+.[ C095 .]
+.[ C096 .]
+.[ C097 .]
+.[ C098 .]
+.[ C099 .]
+.[ C100 .]
+.[ C101 .]
+.[ C102 .]
+.[ C103 .]
+.[ C104 .]
+.[ C105 .]
+.[ C106 .]
+.[ C107 .]
+.[ C108 .]
+.[ C109 .]
+.[ C110 .]
+.[ C111 .]
+.[ C112 .]
+.[ C113 .]
+.[ C114 .]
+.[ C115 .]
+.[ C116 .]
+.[ C117 .]
+.[ C118 .]
+.[ C119 .]
+.[ C120 .]
+.[ C121 .]
+.[ C122 .]
+.[ C123 .]
+.[ C124 .]
+.[ C125 .]
+.[ C126 .]
+.[ C127 .]
+.[ C128 .]
+.[ C129 .]
+.[ C130 .]
+.[ C131 .]
+.[ C132 .]
+.[ C133 .]
+.[ C134 .]
+.[ C135 .]
+.[ C136 .]
+.[ C137 .]
+.[ C138 .]
+.[ C139 .]
+.[ C140 .]
+.[ C141 .]
+.[ C142 .]
+.[ C143 .]
+.[ C144 .]
+.[ C145 .]
+.[ C146 .]
+.[ C147 .]
+.[ C148 .]
+.[ C149 .]
+.[ C150 .]
+.[ C151 .]
+.[ C152 .]
+.[ C153 .]
+.[ C154 .]
+.[ C155 .]
+.[ C156 .]
+.[ C157 .]
+.[ C158 .]
+.[ C159 .]
+.[ C160 .]
+.[ C161 .]
+.[ C162 .]
+.lf 287 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBTechnical Reports\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/pub.tech.rep
+.[ R00 .]
+.[ R01 .]
+.[ R02 .]
+.[ R03 .]
+.[ R04 .]
+.[ R05 .]
+.[ R06 .]
+.[ R07 .]
+.[ R08 .]
+.[ R09 .]
+.[ R10 .]
+.[ R11 .]
+.[ wah poggio tanimoto .]
+.[ R13 .]
+.[ R14 .]
+.[ R15 .]
+.lf 294 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 10
+.ti 0
+\fBKeynote Addresses and Distinguished Lectures\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/lecture.keynote
+.[ K01 .]
+.[ K02 .]
+.[ K03 .]
+.[ K04 .]
+.[ K05 .]
+.[ K06 .]
+.[ K07 .]
+.[ K08 .]
+.[ K09 .]
+.[ K10 .]
+.[ K11 .]
+.[ K12 .]
+.[ K13 .]
+.[ K14 .]
+.[ K15 .]
+.[ K16 .]
+.[ K17 .]
+.[ K18 .]
+.[ K19 .]
+.[ K20 .]
+.[ K21 .]
+.[ K22 .]
+.[ K23 .]
+.[ K24 .]
+.[ K25 .]
+.[ K26 .]
+.[ K27 .]
+.[ K28 .]
+.[ K29 .]
+.[ K30 .]
+.[ K31 .]
+.[ K32 .]
+.[ K33 .]
+.[ K34 .]
+.[ K35 .]
+.[ K36 .]
+.[ K37 .]
+.[ K38 .]
+.[ K39 .]
+.[ K40 .]
+.[ K41 .]
+.[ K42 .]
+.[ K43 .]
+.[ K44 .]
+.[ K45 .]
+.[ K46 .]
+.[ K47 .]
+.[ K48 .]
+.[ K49 .]
+.[ K50 .]
+.[ K51 .]
+.[ K52 .]
+.[ K53 .]
+.[ K54 .]
+.[ K55 .]
+.[ K56 .]
+.[ K57 .]
+.[ K58 .]
+.[ K59 .]
+.[ K60 .]
+.[ K61 .]
+.lf 301 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBConference Presentations\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/lecture.conference
+.[ CP01 .]
+.[ CP02 .]
+.[ CP03 .]
+.[ CP04 .]
+.[ CP05 .]
+.[ CP06 .]
+.[ CP07 .]
+.[ CP08 .]
+.[ CP09 .]
+.[ CP10 .]
+.[ CP11 .]
+.[ CP12 .]
+.[ CP13 .]
+.[ CP14 .]
+.[ CP15 .]
+.[ CP16 .]
+.[ CP17 .]
+.[ CP18 .]
+.[ CP19 .]
+.[ CP20 .]
+.[ CP21 .]
+.[ CP22 .]
+.[ CP23 .]
+.[ CP24 .]
+.[ CP25 .]
+.[ CP26 .]
+.[ CP27 .]
+.[ CP28 .]
+.[ CP29 .]
+.[ CP30 .]
+.[ CP31 .]
+.[ CP32 .]
+.[ CP33 .]
+.[ CP34 .]
+.[ CP35 .]
+.[ CP36 .]
+.[ CP37 .]
+.[ CP38 .]
+.[ CP39 .]
+.[ CP40 .]
+.[ CP41 .]
+.[ CP42 .]
+.[ CP43 .]
+.lf 308 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBInvited Lectures\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/lecture.invited
+.[ CL01 .]
+.[ CL02 .]
+.[ CL03 .]
+.[ CL04 .]
+.[ CL05 .]
+.[ CL06 .]
+.[ CL07 .]
+.[ CL08 .]
+.[ CL09 .]
+.[ CL10 .]
+.[ CL11 .]
+.[ CL12 .]
+.[ CL13 .]
+.[ CL14 .]
+.[ CL15 .]
+.[ CL16 .]
+.[ CL17 .]
+.[ CL18 .]
+.[ CL19 .]
+.[ CL20 .]
+.[ CL21 .]
+.[ CL22 .]
+.[ CL23 .]
+.[ CL24 .]
+.[ CL25 .]
+.[ CL26 .]
+.[ CL27 .]
+.[ CL28 .]
+.[ CL29 .]
+.[ CL30 .]
+.[ CL31 .]
+.[ CL32 .]
+.[ CL33 .]
+.[ CL34 .]
+.[ CL35 .]
+.[ CL36 .]
+.[ CL37 .]
+.[ CL38 .]
+.[ CL39 .]
+.[ CL40 .]
+.[ CL41 .]
+.[ CL42 .]
+.[ CL43 .]
+.[ CL44 .]
+.[ CL45 .]
+.[ CL46 .]
+.[ CL47 .]
+.[ CL48 .]
+.[ CL49 .]
+.[ CL50 .]
+.[ CL51 .]
+.[ CL52 .]
+.[ CL53 .]
+.[ CL54 .]
+.[ CL55 .]
+.[ CL56 .]
+.[ CL57 .]
+.[ CL58 .]
+.[ CL59 .]
+.[ CL60 .]
+.[ CL61 .]
+.[ CL62 .]
+.[ CL63 .]
+.[ CL64 .]
+.[ CL65 .]
+.[ CL66 .]
+.[ CL67 .]
+.[ CL68 .]
+.[ CL69 .]
+.[ CL70 .]
+.[ CL71 .]
+.[ CL72 .]
+.[ CL73 .]
+.[ CL74 .]
+.[ CL75 .]
+.[ CL76 .]
+.[ CL77 .]
+.[ CL78 .]
+.[ CL79 .]
+.[ CL80 .]
+.[ CL81 .]
+.[ CL82 .]
+.[ CL83 .]
+.[ CL84 .]
+.[ CL85 .]
+.[ CL86 .]
+.[ CL87 .]
+.[ CL88 .]
+.[ CL89 .]
+.[ CL90 .]
+.[ CL91 .]
+.[ CL92 .]
+.[ CL93 .]
+.[ CL94 .]
+.[ CL95 .]
+.lf 315 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBTutorial and Short-Course Presentations\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/lecture.tutorial
+.[ CT01 .]
+.[ CT02 .]
+.[ CT03 .]
+.[ CT04 .]
+.[ CT05 .]
+.[ CT06 .]
+.[ CT07 .]
+.[ CT08 .]
+.[ CT09 .]
+.[ CT10 .]
+.[ CT11 .]
+.[ CT12 .]
+.[ CT13 .]
+.[ CT14 .]
+.[ CT15 .]
+.[ CT16 .]
+.[ CT17 .]
+.[ CT18 .]
+.[ CT19 .]
+.[ CT20 .]
+.[ CT21 .]
+.[ CT22 .]
+.[ CT23 .]
+.[ CT24 .]
+.[ CT25 .]
+.[ CT26 .]
+.[ CT27 .]
+.[ CT28 .]
+.[ CT29 .]
+.[ CT30 .]
+.[ CT31 .]
+.lf 322 /home/manip2/wah/Pers/Vita/master_vita
+.LP
+.sp 2
+.ne 6
+.ti 0
+\fBOther Activities\fR
+.sp 0.5v
+.lf 1 /users/wah/Pers/Vita/Vita/activity.other
+Participant in Electrical Engineering Parent's Day, Purdue University, 1982, 1983.
+.hs
+Faculty Advisor, Hong Kong Student Club, Purdue University, Fall 1983 to Spring 1985.
+.hs
+Principal, Chinese Heritage Association, Fall 1995 to Spring 1996.
+.lf 338 /home/manip2/wah/Pers/Vita/master_vita

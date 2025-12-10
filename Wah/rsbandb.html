@@ -1,0 +1,80 @@
+
+<html>
+<body bgcolor="white"
+link=#0000ff
+alink=#150567
+vlink=#150567>
+
+<h3>&nbsp;</h3>
+
+<center> <h2>
+<b>Efficient Branch-and-Bound Search</b></h2></center>
+
+<p>Combinatorial search algorithms are indispensable in many engineering
+applications, including manufacturing, scheduling, computer-aided
+design, and operations research.  Finding the best approximate
+solution under given resource constraints is very important,
+especially for real-time applications.  Traditional algorithms either
+require an impractical amount of time and space to find an optimal
+solution, or give heuristic solutions with no guarantee on their
+accuracy.  This is not desirable in many critical real-time
+applications or when large problems are involved.</p>
+
+<p>Research has been focused on studying resource-constrained
+discrete combinatorial optimization algorithms that find
+better solutions at the same cost, or algorithms that find
+solutions of the same quality but at a lower cost.</p>
+
+	<ul>
+	<li><a HREF="paper.html#TIME">
+	Resource-constrained branch-and-bound search.</a>
+		Under space limitations, strategies have been developed
+		for optimally evaluating a search so that the search
+		can complete in the minimum amount of time using a
+		given amount of space.
+		Under space/time limitations, optimal search strategies
+		have been developed and analyzed so that the solutions
+		obtained have the maximum degree of accuracy achievable
+		in given amount of space and time limitations.<p>
+
+	<li><a HREF="paper.html#META">
+	Meta-control in IDA*-style searches.</a>
+		The meta-control provides a framework for designing combinatorial
+		search algorithms.  The framework was implemented in
+		<a href="../program.html#Wise"><i>Wise</i></a>,
+		a software package implementing meta-level
+		resource-constrained search and available for
+		distribution.<p>
+
+	<li><a HREF="paper.html#PARALLELBB">
+	Parallel branch-and-bound search.</a>
+		Efficient parallel search algorithms that can achieve
+		linear speedups for a large range of number of processors
+		have been studied.  Methods to cope with anomalies of
+		parallelism in combinatorial searches have been developed
+		and analyzed.<p>
+
+	<li><a HREF="paper.html#ARCHBB">
+	Architectural supports.</a>
+		The distributed-ring concept has been developed to
+		support efficient parallel search on distributed-memory
+		multiprocessor systems.<p>
+
+	<li><a HREF="paper.html#BBLEARN">
+	Learning heuristics for branch-and-bound search.</a>
+		Machine learning techniques have been applied to learn
+		new strategies for combinatorial search algorithms
+		that are generalizable.  Algorithms have been found
+		that perform an order-of-magnitude faster than the
+		best known algorithms for a large number of well-known
+		combinatorial search problems.<p>
+
+	<li><a HREF="paper.html#APPLBB">
+	Applications.</a>
+		The main application is in the reordering of (sequential
+		and parallel) Prolog programs for efficient search.
+		
+	</ul><br>
+<h3>&nbsp;</h3>
+</body>
+</html>
