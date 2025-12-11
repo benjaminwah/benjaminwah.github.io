@@ -1,0 +1,33 @@
+% initial setup -- do not set up README at github repository
+git init
+git add .
+git commit -m "Initial website commit"
+git remote -v https://github.com/benjaminwah/benjaminwah.github.io.git
+git remote -v add origin https://github.com/benjaminwah/benjaminwah.github.io.git
+git config --global user.name "wah"
+git config --global user.name "benjaminwah"
+git config --list
+git push -u origin main
+git config --global credential.helper store
+git push -u origin main
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/benjaminwah/homepage.git
+git push -u origin master
+
+% revised working commands
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit of website files"
+git remote -v add origin https://github.com/benjaminwah/benjaminwah.github.io.git
+git push -u origin main
+git branch
+git branch -m master main
+git branch
+git push -u origin main
+
+% after updating local files
+git add .
+git commit -m "new changes"
+git push origin main
