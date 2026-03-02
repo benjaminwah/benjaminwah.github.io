@@ -10,7 +10,7 @@
 <dd>
 B. W. Wah and J. X. Xu,
 <i>Perceptual Quality: Online Interactive Multimedia Systems</i>,
-ISBN-10: 3032079403, ISBN-13: 978-3032079404 (305 pages), Springer, Jan. 31, 2026
+ISBN-10: 3032079403, ISBN-13: 978-3032079404 (305 pages), Springer, Feb. 15, 2026
 </DL>
 
 This monograph introduces a comprehensive framework for optimizing perceptual quality in online, real-time, interactive multimedia systems involving multiple users, performance metrics, and application controls. It outlines an integrated offline-online process that learns perceptual quality under controlled conditions and adapts it to dynamic, real-time environments. The optimization is modeled as a decomposable multi-metric, multi-control problem, solvable in polynomial time by integrating solutions from simpler subproblems. Each subproblem is evaluated using a novel, function-free method based on dominance and a binary-divide algorithm with guaranteed error tolerance.
@@ -4491,6 +4491,19 @@ more accurate point-wise predictions when compared to voxel-based convolutional 
 with lower memory and computational complexity for large-scale point cloud segmentation when compared to the popular point-wise convolutions.
 Our experimental results show that FusionNet can take more than one million points on one GPU for training to achieve state-of-the-art
 accuracy on large-scale Semantic KITTI benchmark. The code will be available at https://github.com/feihuzhang/LiDARSeg.
+<p><img src="./Images/line.gif" width=100% align=middle>
+
+<a name="C181">
+<dl compact>
+<dt>C181
+<dd>
+Alex Warren, Ke Xu, Xin Tian, Gary K. L. Tam, Benjamin W. Wah, and Rynson W. H. Lau,
+``Video Mirror Detection with the Motion-in-Depth Cue,''
+Proc. 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26),
+Jan. 2026
+</dl>
+
+Detecting mirror regions in RGB videos is essential for scene understanding in applications such as scene reconstruction and robotic navigation. Existing video mirror detectors typically rely on cues like inside-outside mirror correspondences and 2D motion inconsistencies. However, these methods often yield noisy or incomplete predictions when confronted with complex real-world video scenes, especially in areas with occlusion or limited visual features and motions. We observe that human perceive and navigate 3D occluded environments with remarkable ease, owing to Motion-in-Depth (MiD) perception. MiD integrates information from visual appearance (image colors and textures), the way objects move around us in 3D space (3D motions), and their relative distance from us (depth) to determine if something is approaching or receding and to support navigation. Motivated by this neuroscience mechanism, we introduce MiD-VMD, the first approach to explicitly model MiD for video mirror detection. MiD-VMD jointly utilizes contrastive 3D motion, depth, and image features through two novel modules based on a combinational QKV transformer architecture. The Motion-in-Depth Attention Learning (MiD-AL) module captures complementary relationships across these modalities with combinatorial attention and enforces a compact encoding to represent global 3D transformations, resulting in more accurate mirror detection and reduced motion artifacts. The Motion-in-Depth Boundary Detection (MiD-BD) module further sharpens mirror boundaries by leveraging cross-modal attention on 3D motion and depth features. Extensive experiments show that MiD-VMD outperforms current SOTAs. The code is available at https://github.com/AlexAnthonyWarren1/MiDVMD}.
 <p><img src="./Images/line.gif" width=100% align=middle>
 
 <a name="BC15">
